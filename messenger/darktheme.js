@@ -7,18 +7,19 @@ function applycss(css){
 }
 applycss(`
   /* #141823 is Messenger's normal text colour, white is normal background colour */
-  /* #1E1E1E and #2D2D30 are Visual Studio, don't ask */
+  /* #1E1E1E and #2D2D30 are Visual Studio's background colours'*/
 
   h2, h3, h4, h5, h6 {
     color: #eee;
   }
+  /* white text */
   ._1tqi, ._5743, ._4rph ._4rpj {
     color: white !important;
   }
   label, ._1wse {
     color: #aaa;
   }
-  /* convo search box, to field (new message, add people) */
+  /* conversation search box(new message, add people) */
   ._2y8y, ._2y8_, ._4jgt, ._5iwm ._58al, ._55r1 {
     background-color: #2d2d30 !important;
     color: white !important;
@@ -26,14 +27,12 @@ applycss(`
   input._58al {
     color: white !important;
   }
-  /* I hate placeholder styling */
   input::-moz-placeholder {
     color: #ccc !important;
   }
   input::-webkit-input-placeholder {
     color: #888 !important;
   }
-
   /* top bars */
   ._36ic, ._673w {
     background-color: rgba(255, 255, 255, .05) !important;
@@ -48,7 +47,7 @@ applycss(`
   ._1q5- {
     border-left-color: rgba(255, 255, 255, .1) !important;
   }
-  /* receipient/convo name in top bar */
+  /* recipient name in the top bar */
   ._17w2 {
     color: white !important;
   }
@@ -86,7 +85,7 @@ applycss(`
   }
 
   /* chat area stuff */
-  /* beginning of convo info */
+  /* beginning of conversation info */
   ._llq, ._36zg, ._1n-e._36zg {
     color: #eee !important;
   }
