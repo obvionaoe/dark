@@ -5,6 +5,7 @@ function applycss(css){
   s.appendChild(document.createTextNode(css));
   head.appendChild(s);
 }
+
 applycss(`
   /* #141823 is Messenger's normal text colour, white is normal background colour */
   /* #1E1E1E and #2D2D30 are Visual Studio's background colours'*/
@@ -19,6 +20,7 @@ applycss(`
   label, ._1wse {
     color: #aaa;
   }
+
   /* conversation search box(new message, add people) */
   ._2y8y, ._2y8_, ._4jgt, ._5iwm ._58al, ._55r1 {
     background-color: #2d2d30 !important;
@@ -498,7 +500,7 @@ applycss(`
   }
 
   /* stuff that should be grey */
-  ._ih3, ._3tl0, ._3tl1 ._10w4, ._497p, ._3x6v, ._2v6o, ._3tky, ._5rh4, ._5qsj, ._jf4 ._jf3, ._5i_d .__6m, ._2y8z,
+  ._4k7a, ._67tw, ._ih3, ._3tl0, ._3tl1 ._10w4, ._497p, ._3x6v, ._2v6o, ._3tky, ._5rh4, ._5qsj, ._jf4 ._jf3, ._5i_d .__6m, ._2y8z,
   ._4g0h, ._3xcx, ._225b, ._3q35, ._2r2v, ._2n1t, ._1n-e, ._3eus, ._2wy4, ._1u5d ._1u5k, ._3ggt,
   ._17cj ._2ze8, ._17cj ._cen, ._5sr7, ._4nw0 {
     color: rgba(255, 255, 255, .6) !important;
