@@ -12,15 +12,15 @@ go into the settings for that service
 
 ![](images/configure.png)
 
-once you're there click on "Advanced"
+once you're there, click on "Advanced".
 
 ![](images/advanced.png)
 
-a text-box will appear. Copy the JavaScript code from the darktheme.js into it and save your changes!
+A text-box will appear, copy the JavaScript code from the darktheme.js file into it and save your changes!
 
 ![](images/paste.gif)
 
-All done!
+That's it, all done and ready to use!
 
 ### Made in
 
