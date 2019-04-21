@@ -4,7 +4,7 @@ Dark themes for Rambox services
 
 ### Applying the themes
 
-Firstly, find the service you wish to apply the theme to
+First, find the service you wish to apply the theme to
 
 ![](images/find.png)
 
