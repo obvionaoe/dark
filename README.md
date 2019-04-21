@@ -20,7 +20,11 @@ A text-box will appear, copy the JavaScript code from the darktheme.js file into
 
 ![](images/paste.gif)
 
-That's it, all done and ready to use!
+Then press "Yes" on the service restart popup
+
+![](images/save.png)
+
+and that's it, all done and ready to use!
 
 ### Made in
 
