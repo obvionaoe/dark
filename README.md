@@ -26,7 +26,17 @@ Then press "Yes" on the service restart popup
 
 and that's it, all done and ready to use!
 
+### Themes
+
+* **Gmail**
+
+* **Messenger** - forked from [auscompgeek/fb-messenger-dark](https://github.com/auscompgeek/fb-messenger-dark). Bugfixed and improved!
+
+* **Telegram**
+
+* **WhatsApp**
+
 ### Made in
 
-* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 * [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
