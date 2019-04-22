@@ -28,13 +28,11 @@ and that's it, all done and ready to use!
 
 ### Themes
 
-* **Gmail**
-
 * **Messenger** - forked from [auscompgeek/fb-messenger-dark](https://github.com/auscompgeek/fb-messenger-dark). Bugfixed and improved!
 
-* **Telegram**
+* **Telegram** - forked from [Web Telegram Dark & Wide Screen](https://userstyles.org/styles/155933/web-telegram-dark-wide-screen) Bugfixed and improved!
 
-* **WhatsApp**
+* **WhatsApp**- forked from [RaitaroH/WhatsApp-DeepDark](https://github.com/RaitaroH/WhatsApp-DeepDark). Bugfixed and improved!
 
 ### Made in
 
