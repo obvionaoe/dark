@@ -277,7 +277,7 @@ html[dir] ._3YewW, html[dir] ._3YewW * {
   border: 1px solid var(--hover-background) !important;
 }
 .intro-image, [data-asset-intro-image] {
-  background-image: url(https://github.com/obvionaoe/rambox-dark-themes/images/intro-image.png) !important;
+  background-image: url(https://github.com/obvionaoe/rambox-dark-themes/blob/master/whatsapp/images/intro-image.png) !important;
 }
 .intro .intro-title, .iHhHL {
   color: var(--main-color) !important;
@@ -829,4 +829,14 @@ div span[data-icon=default-user] svg g[fill="#FFF"] path, div span[data-icon=def
 circle {
   stroke: var(--main-text) !important;
 }
+/*Message down arrow gradient */
+._2Nkc4 {
+  background: var(--hover-background) !important;
+}
+/*Pop-up box*/
+._2hHc6 {
+  background-color: #1f1f22 !important;
+  background-opacity: 1 !important;
+}
+
 `);
