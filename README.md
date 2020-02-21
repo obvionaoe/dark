@@ -1,5 +1,7 @@
 # Dark Theme for Rambox
 
+**Currently not being developed/fixed, I'll get back to this soon**
+
 Dark themes for Rambox services
 
 ### Applying the themes
