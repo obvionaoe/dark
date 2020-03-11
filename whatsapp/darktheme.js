@@ -5,7 +5,8 @@ function applycss(css){
   s.appendChild(document.createTextNode(css));
   head.appendChild(s);
 }
-applycss(`  :root {
+applycss(`
+:root {
   --dark: #1f232a;
   --darken: #252a33;
   --darker: #2c313a;
@@ -39,9 +40,9 @@ applycss(`  :root {
   --chat-bg-i: 0.6;
   --c-m-hover: 1s;
   --ui-font: 'custom font', 'Segoe UI', 'Helvetica Neue', Helvetica, 'Lucida Grande', Arial, Ubuntu, Cantarell, 'Fira Sans', sans-serif;
-  --version: 'Dark-WhatsApp Lite v2.2.2';
-  --message: 'Version 2.2.2 is out! More info in the changelog. 🎉🥳 My blog post about v2 release: ';
-  --changes: 'https://vednoc.me/blog/the-new-dark-whatsapp';
+  --subtext: 'Forked from vednoc/dark-whatsapp ';
+  --message: 'darkWhatsApp for Rambox';
+  --link: 'https://vednoc.me/blog/the-new-dark-whatsapp';
 }
 @supports (-moz-user-select: none) {
   :root * {
@@ -135,7 +136,7 @@ body .landing-header::after {
   font-size: 14px;
   font-weight: 500;
   position: absolute;
-  content: var(--version);
+  content: var(--subtext) var(--link);
 }
 body .landing-window:not(#z) {
   border-radius: var(--radius);
@@ -411,694 +412,694 @@ body #group-invite-link-anchor {
   box-shadow: none !important;
 }
 .emojik.wa.b0 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/0.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/0.webp");
 }
 .emojik.wa.b1 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/1.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/1.webp");
 }
 .emojik.wa.b2 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/2.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/2.webp");
 }
 .emojik.wa.b3 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/3.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/3.webp");
 }
 .emojik.wa.b4 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/4.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/4.webp");
 }
 .emojik.wa.b5 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/5.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/5.webp");
 }
 .emojik.wa.b6 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/6.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/6.webp");
 }
 .emojik.wa.b7 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/7.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/7.webp");
 }
 .emojik.wa.b8 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/8.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/8.webp");
 }
 .emojik.wa.b9 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/9.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/9.webp");
 }
 .emojik.wa.b10 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/10.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/10.webp");
 }
 .emojik.wa.b11 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/11.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/11.webp");
 }
 .emojik.wa.b12 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/12.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/12.webp");
 }
 .emojik.wa.b13 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/13.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/13.webp");
 }
 .emojik.wa.b14 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/14.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/14.webp");
 }
 .emojik.wa.b15 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/15.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/15.webp");
 }
 .emojik.wa.b16 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/16.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/16.webp");
 }
 .emojik.wa.b17 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/17.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/17.webp");
 }
 .emojik.wa.b18 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/18.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/18.webp");
 }
 .emojik.wa.b19 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/19.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/19.webp");
 }
 .emojik.wa.b20 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/20.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/20.webp");
 }
 .emojik.wa.b21 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/21.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/21.webp");
 }
 .emojik.wa.b22 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/22.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/22.webp");
 }
 .emojik.wa.b23 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/23.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/23.webp");
 }
 .emojik.wa.b24 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/24.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/24.webp");
 }
 .emojik.wa.b25 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/25.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/25.webp");
 }
 .emojik.wa.b26 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/26.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/26.webp");
 }
 .emojik.wa.b27 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/27.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/27.webp");
 }
 .emojik.wa.b28 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/28.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/28.webp");
 }
 .emojik.wa.b29 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/29.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/29.webp");
 }
 .emojik.wa.b30 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/30.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/30.webp");
 }
 .emojik.wa.b31 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/31.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/31.webp");
 }
 .emojik.wa.b32 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/32.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/32.webp");
 }
 .emojik.wa.b33 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/33.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/33.webp");
 }
 .emojik.wa.b34 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/34.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/34.webp");
 }
 .emojik.wa.b35 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/35.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/35.webp");
 }
 .emojik.wa.b36 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/36.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/36.webp");
 }
 .emojik.wa.b37 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/37.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/37.webp");
 }
 .emojik.wa.b38 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/38.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/38.webp");
 }
 .emojik.wa.b39 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/39.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/39.webp");
 }
 .emojik.wa.b40 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/40.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/40.webp");
 }
 .emojik.wa.b41 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/41.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/41.webp");
 }
 .emojik.wa.b42 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/42.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/42.webp");
 }
 .emojik.wa.b43 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/43.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/43.webp");
 }
 .emojik.wa.b44 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/44.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/44.webp");
 }
 .emojik.wa.b45 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/45.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/45.webp");
 }
 .emojik.wa.b46 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/46.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/46.webp");
 }
 .emojik.wa.b47 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/47.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/47.webp");
 }
 .emojik.wa.b48 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/48.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/48.webp");
 }
 .emojik.wa.b49 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/49.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/49.webp");
 }
 .emojik.wa.b50 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/50.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/50.webp");
 }
 .emojik.wa.b51 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/51.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/51.webp");
 }
 .emojik.wa.b52 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/52.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/52.webp");
 }
 .emojik.wa.b53 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/53.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/53.webp");
 }
 .emojik.wa.b54 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/54.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/54.webp");
 }
 .emojik.wa.b55 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/55.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/55.webp");
 }
 .emojik.wa.b56 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/56.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/56.webp");
 }
 .emojik.wa.b57 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/57.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/57.webp");
 }
 .emojik.wa.b58 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/58.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/58.webp");
 }
 .emojik.wa.b59 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/59.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/59.webp");
 }
 .emojik.wa.b60 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/60.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/60.webp");
 }
 .emojik.wa.b61 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/61.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/61.webp");
 }
 .emojik.wa.b62 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/62.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/62.webp");
 }
 .emojik.wa.b63 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/63.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/63.webp");
 }
 .emojik.wa.b64 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/64.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/64.webp");
 }
 .emojik.wa.b65 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/65.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/65.webp");
 }
 .emojik.wa.b66 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/66.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/66.webp");
 }
 .emojik.wa.b67 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/67.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/67.webp");
 }
 .emojik.wa.b68 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/68.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/68.webp");
 }
 .emojik.wa.b69 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/69.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/69.webp");
 }
 .emojik.wa.b70 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/70.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/70.webp");
 }
 .emojik.wa.b71 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/71.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/71.webp");
 }
 .emojik.wa.b72 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/72.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/72.webp");
 }
 .emojik.wa.b73 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/73.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/73.webp");
 }
 .emojik.wa.b74 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/74.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/74.webp");
 }
 .emojik.wa.b75 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/75.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/75.webp");
 }
 .emojik.wa.b76 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/76.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/76.webp");
 }
 .emojik.wa.b77 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/77.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/77.webp");
 }
 .emojik.wa.b78 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/78.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/78.webp");
 }
 .emojik.wa.b79 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/79.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/79.webp");
 }
 .emojik.wa.b80 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/80.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/80.webp");
 }
 .emojik.wa.b81 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/81.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/81.webp");
 }
 .emojik.wa.b82 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/82.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/82.webp");
 }
 .emojik.wa.b83 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/83.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/83.webp");
 }
 .emojik.wa.b84 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/84.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/84.webp");
 }
 .emojik.wa.b85 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/85.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/85.webp");
 }
 .emojik.wa.b86 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/86.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/86.webp");
 }
 .emojik.wa.b87 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/87.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/87.webp");
 }
 .emojik.wa.b88 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/88.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/88.webp");
 }
 .emojik.wa.b89 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/89.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/89.webp");
 }
 .emojik.wa.b90 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/90.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/90.webp");
 }
 .emojik.wa.b91 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/91.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/91.webp");
 }
 .emojik.wa.b92 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/92.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/92.webp");
 }
 .emojik.wa.b93 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/93.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/93.webp");
 }
 .emojik.wa.b94 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/94.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/94.webp");
 }
 .emojik.wa.b95 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/95.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/95.webp");
 }
 .emojik.wa.b96 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/96.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/96.webp");
 }
 .emojik.wa.b97 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/97.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/97.webp");
 }
 .emojik.wa.b98 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/98.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/98.webp");
 }
 .emojik.wa.b99 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/99.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/99.webp");
 }
 .emojik.wa.b100 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/100.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/100.webp");
 }
 .emojik.wa.b101 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/101.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/101.webp");
 }
 .emojik.wa.b102 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/102.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/102.webp");
 }
 .emojik.wa.b103 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/103.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/103.webp");
 }
 .emojik.wa.b104 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/104.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/104.webp");
 }
 .emojik.wa.b105 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/105.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/105.webp");
 }
 .emojik.wa.b106 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/106.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/106.webp");
 }
 .emojik.wa.b107 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/107.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/107.webp");
 }
 .emojik.wa.b108 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/108.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/108.webp");
 }
 .emojik.wa.b109 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/109.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/109.webp");
 }
 .emojik.wa.b110 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/110.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/110.webp");
 }
 .emojik.wa.b111 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/111.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/111.webp");
 }
 .emojik.wa.b112 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/a/112.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/a/112.webp");
 }
 .emojik.apple.b0 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/0.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/0.webp");
 }
 .emojik.apple.b1 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/1.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/1.webp");
 }
 .emojik.apple.b2 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/2.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/2.webp");
 }
 .emojik.apple.b3 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/3.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/3.webp");
 }
 .emojik.apple.b4 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/4.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/4.webp");
 }
 .emojik.apple.b5 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/5.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/5.webp");
 }
 .emojik.apple.b6 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/6.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/6.webp");
 }
 .emojik.apple.b7 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/7.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/7.webp");
 }
 .emojik.apple.b8 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/8.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/8.webp");
 }
 .emojik.apple.b9 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/9.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/9.webp");
 }
 .emojik.apple.b10 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/10.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/10.webp");
 }
 .emojik.apple.b11 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/11.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/11.webp");
 }
 .emojik.apple.b12 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/12.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/12.webp");
 }
 .emojik.apple.b13 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/13.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/13.webp");
 }
 .emojik.apple.b14 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/14.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/14.webp");
 }
 .emojik.apple.b15 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/15.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/15.webp");
 }
 .emojik.apple.b16 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/16.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/16.webp");
 }
 .emojik.apple.b17 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/17.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/17.webp");
 }
 .emojik.apple.b18 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/18.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/18.webp");
 }
 .emojik.apple.b19 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/19.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/19.webp");
 }
 .emojik.apple.b20 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/20.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/20.webp");
 }
 .emojik.apple.b21 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/21.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/21.webp");
 }
 .emojik.apple.b22 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/22.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/22.webp");
 }
 .emojik.apple.b23 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/23.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/23.webp");
 }
 .emojik.apple.b24 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/24.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/24.webp");
 }
 .emojik.apple.b25 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/25.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/25.webp");
 }
 .emojik.apple.b26 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/26.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/26.webp");
 }
 .emojik.apple.b27 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/27.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/27.webp");
 }
 .emojik.apple.b28 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/28.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/28.webp");
 }
 .emojik.apple.b29 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/29.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/29.webp");
 }
 .emojik.apple.b30 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/30.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/30.webp");
 }
 .emojik.apple.b31 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/31.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/31.webp");
 }
 .emojik.apple.b32 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/32.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/32.webp");
 }
 .emojik.apple.b33 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/33.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/33.webp");
 }
 .emojik.apple.b34 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/34.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/34.webp");
 }
 .emojik.apple.b35 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/35.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/35.webp");
 }
 .emojik.apple.b36 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/36.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/36.webp");
 }
 .emojik.apple.b37 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/37.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/37.webp");
 }
 .emojik.apple.b38 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/38.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/38.webp");
 }
 .emojik.apple.b39 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/39.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/39.webp");
 }
 .emojik.apple.b40 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/40.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/40.webp");
 }
 .emojik.apple.b41 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/41.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/41.webp");
 }
 .emojik.apple.b42 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/42.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/42.webp");
 }
 .emojik.apple.b43 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/43.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/43.webp");
 }
 .emojik.apple.b44 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/44.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/44.webp");
 }
 .emojik.apple.b45 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/45.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/45.webp");
 }
 .emojik.apple.b46 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/46.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/46.webp");
 }
 .emojik.apple.b47 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/47.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/47.webp");
 }
 .emojik.apple.b48 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/48.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/48.webp");
 }
 .emojik.apple.b49 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/49.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/49.webp");
 }
 .emojik.apple.b50 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/50.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/50.webp");
 }
 .emojik.apple.b51 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/51.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/51.webp");
 }
 .emojik.apple.b52 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/52.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/52.webp");
 }
 .emojik.apple.b53 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/53.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/53.webp");
 }
 .emojik.apple.b54 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/54.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/54.webp");
 }
 .emojik.apple.b55 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/55.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/55.webp");
 }
 .emojik.apple.b56 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/56.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/56.webp");
 }
 .emojik.apple.b57 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/57.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/57.webp");
 }
 .emojik.apple.b58 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/58.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/58.webp");
 }
 .emojik.apple.b59 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/59.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/59.webp");
 }
 .emojik.apple.b60 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/60.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/60.webp");
 }
 .emojik.apple.b61 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/61.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/61.webp");
 }
 .emojik.apple.b62 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/62.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/62.webp");
 }
 .emojik.apple.b63 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/63.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/63.webp");
 }
 .emojik.apple.b64 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/64.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/64.webp");
 }
 .emojik.apple.b65 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/65.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/65.webp");
 }
 .emojik.apple.b66 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/66.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/66.webp");
 }
 .emojik.apple.b67 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/67.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/67.webp");
 }
 .emojik.apple.b68 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/68.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/68.webp");
 }
 .emojik.apple.b69 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/69.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/69.webp");
 }
 .emojik.apple.b70 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/70.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/70.webp");
 }
 .emojik.apple.b71 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/71.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/71.webp");
 }
 .emojik.apple.b72 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/72.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/72.webp");
 }
 .emojik.apple.b73 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/73.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/73.webp");
 }
 .emojik.apple.b74 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/74.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/74.webp");
 }
 .emojik.apple.b75 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/75.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/75.webp");
 }
 .emojik.apple.b76 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/76.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/76.webp");
 }
 .emojik.apple.b77 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/77.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/77.webp");
 }
 .emojik.apple.b78 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/78.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/78.webp");
 }
 .emojik.apple.b79 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/79.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/79.webp");
 }
 .emojik.apple.b80 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/80.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/80.webp");
 }
 .emojik.apple.b81 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/81.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/81.webp");
 }
 .emojik.apple.b82 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/82.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/82.webp");
 }
 .emojik.apple.b83 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/83.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/83.webp");
 }
 .emojik.apple.b84 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/84.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/84.webp");
 }
 .emojik.apple.b85 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/85.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/85.webp");
 }
 .emojik.apple.b86 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/86.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/86.webp");
 }
 .emojik.apple.b87 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/87.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/87.webp");
 }
 .emojik.apple.b88 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/88.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/88.webp");
 }
 .emojik.apple.b89 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/89.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/89.webp");
 }
 .emojik.apple.b90 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/90.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/90.webp");
 }
 .emojik.apple.b91 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/91.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/91.webp");
 }
 .emojik.apple.b92 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/92.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/92.webp");
 }
 .emojik.apple.b93 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/93.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/93.webp");
 }
 .emojik.apple.b94 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/94.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/94.webp");
 }
 .emojik.apple.b95 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/95.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/95.webp");
 }
 .emojik.apple.b96 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/96.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/96.webp");
 }
 .emojik.apple.b97 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/97.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/97.webp");
 }
 .emojik.apple.b98 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/98.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/98.webp");
 }
 .emojik.apple.b99 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/99.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/99.webp");
 }
 .emojik.apple.b100 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/100.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/100.webp");
 }
 .emojik.apple.b101 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/101.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/101.webp");
 }
 .emojik.apple.b102 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/102.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/102.webp");
 }
 .emojik.apple.b103 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/103.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/103.webp");
 }
 .emojik.apple.b104 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/104.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/104.webp");
 }
 .emojik.apple.b105 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/105.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/105.webp");
 }
 .emojik.apple.b106 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/106.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/106.webp");
 }
 .emojik.apple.b107 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/107.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/107.webp");
 }
 .emojik.apple.b108 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/108.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/108.webp");
 }
 .emojik.apple.b109 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/109.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/109.webp");
 }
 .emojik.apple.b110 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/110.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/110.webp");
 }
 .emojik.apple.b111 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/111.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/111.webp");
 }
 .emojik.apple.b112 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/112.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/112.webp");
 }
 .emojik.apple.b113 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/113.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/113.webp");
 }
 .emojik.apple.b114 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/114.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/114.webp");
 }
 .emojik.apple.b115 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/115.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/115.webp");
 }
 .emojik.apple.b116 {
-  background-image: url("https://raw.githubusercontent.com/vednoc/wae/master/i/116.webp");
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/rambox-dark-themes/master/whatsapp/images/wae/i/116.webp");
 }
 ._342qq._1mTBR {
   border-radius: var(--radius) !important;
