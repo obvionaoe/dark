@@ -1,8 +1,7 @@
 # Dark Theme for Rambox
 
-**Currently not being developed/fixed, I'll get back to this soon**
-
-Dark themes for Rambox services
+This repository is a compilation of dark themes that I use for some Rambox services, if you would like me to add anything, let me know through an issue!
+If you made a theme and would like it put here with some others, let me know by creating a PR!
 
 ### Applying the themes
 
@@ -30,11 +29,11 @@ and that's it, all done and ready to use!
 
 ### Themes
 
-* **Messenger** - forked from [auscompgeek/fb-messenger-dark](https://github.com/auscompgeek/fb-messenger-dark). Bugfixed and improved!
+* **Messenger** - forked from [auscompgeek/fb-messenger-dark](https://github.com/auscompgeek/fb-messenger-dark).
 
-* **Telegram** - forked from [Web Telegram Dark & Wide Screen](https://userstyles.org/styles/155933/web-telegram-dark-wide-screen) Bugfixed and improved!
+* **Telegram** - forked from [Web Telegram Dark & Wide Screen](https://userstyles.org/styles/155933/web-telegram-dark-wide-screen)
 
-* **WhatsApp**- forked from [RaitaroH/WhatsApp-DeepDark](https://github.com/RaitaroH/WhatsApp-DeepDark). Bugfixed and improved!
+* **WhatsApp**- forked from [vednoc/dark-whatsapp](https://https://github.com/vednoc/dark-whatsapp).
 
 ### Made in
 

@@ -41,8 +41,8 @@ applycss(`
   --c-m-hover: 1s;
   --ui-font: 'custom font', 'Segoe UI', 'Helvetica Neue', Helvetica, 'Lucida Grande', Arial, Ubuntu, Cantarell, 'Fira Sans', sans-serif;
   --subtext: 'Forked from vednoc/dark-whatsapp ';
-  --message: 'darkWhatsApp for Rambox';
-  --link: 'https://vednoc.me/blog/the-new-dark-whatsapp';
+  --title: 'darkWhatsApp for Rambox';
+  --link: 'https://github.com/vednoc/dark-whatsapp';
 }
 @supports (-moz-user-select: none) {
   :root * {
@@ -248,7 +248,7 @@ body ._1qNwV h1 + div[class]::before {
   display: block;
   font-size: 16px;
   margin-bottom: -16px;
-  content: var(--message) var(--changes);
+  content: var(--title);
 }
 body ._1qNwV h1 + div[class]::after {
   display: block;
