@@ -136,7 +136,6 @@ body .landing-header::after {
   font-size: 14px;
   font-weight: 500;
   position: absolute;
-  content: var(--subtext) var(--link);
 }
 body .landing-window:not(#z) {
   border-radius: var(--radius);
