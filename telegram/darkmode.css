@@ -1,12 +1,3 @@
-function applycss(css){
-  var head = document.getElementsByTagName('head')[0];
-  var s = document.createElement('style');
-  s.setAttribute('type', 'text/css');
-  s.appendChild(document.createTextNode(css));
-  head.appendChild(s);
-}
-
-applycss(`
 body,
 .modal-content
   {
@@ -702,7 +693,7 @@ body,
   {
     background: #303030;
   }
-@  keyframes im_message_focus_fade
+@keyframes im_message_focus_fade
   {
     0% {
         /*soft transaction*/
@@ -778,4 +769,4 @@ body,
   background-color: #2d2d2d !important;
   border-color: #2d2d2d;
 }
-`);
+
