@@ -21,7 +21,7 @@
   --shadow: rgba(0,0,0,0.145);
   --sh-h: rgba(0,0,0,0.208);
   --bshadow: 0 2px 4px var(--shadow);
-  --app-width: 100%;
+  --app-width: 1396px;
   --emoji-o: 0.8;
   --avatar-r: 50%;
   --bg-image: url("https://raw.githubusercontent.com/vednoc/dark-whatsapp/master/images/bg-blur-high.jpg");
@@ -35,8 +35,9 @@
   --c-m-hover: 0.6s;
   --c-m-delay: 1.2s;
   --ui-font: "custom font", "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
-  --version: "v2.3.4";
-  --message: "darkWhatsApp by Vednoc";
+  --version: "Dark-WhatsApp v2.3.6 — April 4th, 2020";
+  --message: "Fixing more bugs! 🎉 🥳 I published an important update about my userstyles, please read it: ";
+  --changes: "https://vednoc.me/blog/the-end-of-an-era";
 }
 @supports (-moz-user-select: none) {
   :root * {
@@ -252,7 +253,7 @@ body ._2zynu h1 + div[class]::before {
   display: block;
   font-size: 16px;
   margin-bottom: -16px;
-  content: var(--message);
+  content: var(--message) var(--changes);
 }
 body ._2zynu h1 + div[class]::after {
   display: block;
@@ -358,7 +359,8 @@ body #group-invite-link-anchor {
 ._3y8EC::-webkit-slider-runnable-track {
   background-color: var(--t) !important;
 }
-._3L8ub .Q8uSF {
+._3L8ub .Q8uSF,
+.bB3vH .Q8uSF {
   background-color: var(--accent) !important;
 }
 .Q8uSF {
@@ -433,7 +435,6 @@ body #group-invite-link-anchor {
 }
 .emojik {
   transition: transform 0.15s ease;
-  clip-path: circle(49%);
 }
 .emojik:not(:hover):not(:focus):not(.selected) {
   filter: opacity(var(--emoji-o));
@@ -444,6 +445,726 @@ body #group-invite-link-anchor {
   opacity: 1;
   transform: scale(1.2);
   box-shadow: none !important;
+}
+.emojik.wa.b0 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/0.png");
+}
+.emojik.wa.b1 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/1.png");
+}
+.emojik.wa.b2 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/2.png");
+}
+.emojik.wa.b3 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/3.png");
+}
+.emojik.wa.b4 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/4.png");
+}
+.emojik.wa.b5 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/5.png");
+}
+.emojik.wa.b6 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/6.png");
+}
+.emojik.wa.b7 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/7.png");
+}
+.emojik.wa.b8 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/8.png");
+}
+.emojik.wa.b9 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/9.png");
+}
+.emojik.wa.b10 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/10.png");
+}
+.emojik.wa.b11 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/11.png");
+}
+.emojik.wa.b12 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/12.png");
+}
+.emojik.wa.b13 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/13.png");
+}
+.emojik.wa.b14 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/14.png");
+}
+.emojik.wa.b15 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/15.png");
+}
+.emojik.wa.b16 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/16.png");
+}
+.emojik.wa.b17 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/17.png");
+}
+.emojik.wa.b18 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/18.png");
+}
+.emojik.wa.b19 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/19.png");
+}
+.emojik.wa.b20 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/20.png");
+}
+.emojik.wa.b21 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/21.png");
+}
+.emojik.wa.b22 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/22.png");
+}
+.emojik.wa.b23 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/23.png");
+}
+.emojik.wa.b24 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/24.png");
+}
+.emojik.wa.b25 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/25.png");
+}
+.emojik.wa.b26 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/26.png");
+}
+.emojik.wa.b27 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/27.png");
+}
+.emojik.wa.b28 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/28.png");
+}
+.emojik.wa.b29 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/29.png");
+}
+.emojik.wa.b30 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/30.png");
+}
+.emojik.wa.b31 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/31.png");
+}
+.emojik.wa.b32 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/32.png");
+}
+.emojik.wa.b33 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/33.png");
+}
+.emojik.wa.b34 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/34.png");
+}
+.emojik.wa.b35 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/35.png");
+}
+.emojik.wa.b36 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/36.png");
+}
+.emojik.wa.b37 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/37.png");
+}
+.emojik.wa.b38 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/38.png");
+}
+.emojik.wa.b39 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/39.png");
+}
+.emojik.wa.b40 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/40.png");
+}
+.emojik.wa.b41 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/41.png");
+}
+.emojik.wa.b42 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/42.png");
+}
+.emojik.wa.b43 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/43.png");
+}
+.emojik.wa.b44 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/44.png");
+}
+.emojik.wa.b45 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/45.png");
+}
+.emojik.wa.b46 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/46.png");
+}
+.emojik.wa.b47 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/47.png");
+}
+.emojik.wa.b48 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/48.png");
+}
+.emojik.wa.b49 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/49.png");
+}
+.emojik.wa.b50 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/50.png");
+}
+.emojik.wa.b51 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/51.png");
+}
+.emojik.wa.b52 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/52.png");
+}
+.emojik.wa.b53 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/53.png");
+}
+.emojik.wa.b54 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/54.png");
+}
+.emojik.wa.b55 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/55.png");
+}
+.emojik.wa.b56 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/56.png");
+}
+.emojik.wa.b57 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/57.png");
+}
+.emojik.wa.b58 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/58.png");
+}
+.emojik.wa.b59 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/59.png");
+}
+.emojik.wa.b60 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/60.png");
+}
+.emojik.wa.b61 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/61.png");
+}
+.emojik.wa.b62 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/62.png");
+}
+.emojik.wa.b63 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/63.png");
+}
+.emojik.wa.b64 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/64.png");
+}
+.emojik.wa.b65 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/65.png");
+}
+.emojik.wa.b66 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/66.png");
+}
+.emojik.wa.b67 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/67.png");
+}
+.emojik.wa.b68 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/68.png");
+}
+.emojik.wa.b69 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/69.png");
+}
+.emojik.wa.b70 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/70.png");
+}
+.emojik.wa.b71 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/71.png");
+}
+.emojik.wa.b72 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/72.png");
+}
+.emojik.wa.b73 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/73.png");
+}
+.emojik.wa.b74 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/74.png");
+}
+.emojik.wa.b75 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/75.png");
+}
+.emojik.wa.b76 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/76.png");
+}
+.emojik.wa.b77 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/77.png");
+}
+.emojik.wa.b78 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/78.png");
+}
+.emojik.wa.b79 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/79.png");
+}
+.emojik.wa.b80 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/80.png");
+}
+.emojik.wa.b81 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/81.png");
+}
+.emojik.wa.b82 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/82.png");
+}
+.emojik.wa.b83 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/83.png");
+}
+.emojik.wa.b84 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/84.png");
+}
+.emojik.wa.b85 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/85.png");
+}
+.emojik.wa.b86 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/86.png");
+}
+.emojik.wa.b87 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/87.png");
+}
+.emojik.wa.b88 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/88.png");
+}
+.emojik.wa.b89 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/89.png");
+}
+.emojik.wa.b90 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/90.png");
+}
+.emojik.wa.b91 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/91.png");
+}
+.emojik.wa.b92 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/92.png");
+}
+.emojik.wa.b93 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/93.png");
+}
+.emojik.wa.b94 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/94.png");
+}
+.emojik.wa.b95 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/95.png");
+}
+.emojik.wa.b96 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/96.png");
+}
+.emojik.wa.b97 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/97.png");
+}
+.emojik.wa.b98 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/98.png");
+}
+.emojik.wa.b99 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/99.png");
+}
+.emojik.wa.b100 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/100.png");
+}
+.emojik.wa.b101 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/101.png");
+}
+.emojik.wa.b102 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/102.png");
+}
+.emojik.wa.b103 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/103.png");
+}
+.emojik.wa.b104 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/104.png");
+}
+.emojik.wa.b105 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/105.png");
+}
+.emojik.wa.b106 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/106.png");
+}
+.emojik.wa.b107 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/107.png");
+}
+.emojik.wa.b108 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/108.png");
+}
+.emojik.wa.b109 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/109.png");
+}
+.emojik.wa.b110 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/110.png");
+}
+.emojik.wa.b111 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/a/111.png");
+}
+.emojik.apple.b0 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/0.png");
+}
+.emojik.apple.b1 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/1.png");
+}
+.emojik.apple.b2 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/2.png");
+}
+.emojik.apple.b3 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/3.png");
+}
+.emojik.apple.b4 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/4.png");
+}
+.emojik.apple.b5 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/5.png");
+}
+.emojik.apple.b6 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/6.png");
+}
+.emojik.apple.b7 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/7.png");
+}
+.emojik.apple.b8 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/8.png");
+}
+.emojik.apple.b9 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/9.png");
+}
+.emojik.apple.b10 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/10.png");
+}
+.emojik.apple.b11 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/11.png");
+}
+.emojik.apple.b12 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/12.png");
+}
+.emojik.apple.b13 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/13.png");
+}
+.emojik.apple.b14 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/14.png");
+}
+.emojik.apple.b15 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/15.png");
+}
+.emojik.apple.b16 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/16.png");
+}
+.emojik.apple.b17 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/17.png");
+}
+.emojik.apple.b18 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/18.png");
+}
+.emojik.apple.b19 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/19.png");
+}
+.emojik.apple.b20 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/20.png");
+}
+.emojik.apple.b21 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/21.png");
+}
+.emojik.apple.b22 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/22.png");
+}
+.emojik.apple.b23 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/23.png");
+}
+.emojik.apple.b24 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/24.png");
+}
+.emojik.apple.b25 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/25.png");
+}
+.emojik.apple.b26 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/26.png");
+}
+.emojik.apple.b27 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/27.png");
+}
+.emojik.apple.b28 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/28.png");
+}
+.emojik.apple.b29 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/29.png");
+}
+.emojik.apple.b30 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/30.png");
+}
+.emojik.apple.b31 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/31.png");
+}
+.emojik.apple.b32 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/32.png");
+}
+.emojik.apple.b33 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/33.png");
+}
+.emojik.apple.b34 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/34.png");
+}
+.emojik.apple.b35 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/35.png");
+}
+.emojik.apple.b36 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/36.png");
+}
+.emojik.apple.b37 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/37.png");
+}
+.emojik.apple.b38 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/38.png");
+}
+.emojik.apple.b39 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/39.png");
+}
+.emojik.apple.b40 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/40.png");
+}
+.emojik.apple.b41 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/41.png");
+}
+.emojik.apple.b42 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/42.png");
+}
+.emojik.apple.b43 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/43.png");
+}
+.emojik.apple.b44 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/44.png");
+}
+.emojik.apple.b45 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/45.png");
+}
+.emojik.apple.b46 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/46.png");
+}
+.emojik.apple.b47 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/47.png");
+}
+.emojik.apple.b48 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/48.png");
+}
+.emojik.apple.b49 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/49.png");
+}
+.emojik.apple.b50 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/50.png");
+}
+.emojik.apple.b51 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/51.png");
+}
+.emojik.apple.b52 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/52.png");
+}
+.emojik.apple.b53 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/53.png");
+}
+.emojik.apple.b54 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/54.png");
+}
+.emojik.apple.b55 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/55.png");
+}
+.emojik.apple.b56 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/56.png");
+}
+.emojik.apple.b57 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/57.png");
+}
+.emojik.apple.b58 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/58.png");
+}
+.emojik.apple.b59 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/59.png");
+}
+.emojik.apple.b60 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/60.png");
+}
+.emojik.apple.b61 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/61.png");
+}
+.emojik.apple.b62 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/62.png");
+}
+.emojik.apple.b63 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/63.png");
+}
+.emojik.apple.b64 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/64.png");
+}
+.emojik.apple.b65 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/65.png");
+}
+.emojik.apple.b66 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/66.png");
+}
+.emojik.apple.b67 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/67.png");
+}
+.emojik.apple.b68 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/68.png");
+}
+.emojik.apple.b69 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/69.png");
+}
+.emojik.apple.b70 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/70.png");
+}
+.emojik.apple.b71 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/71.png");
+}
+.emojik.apple.b72 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/72.png");
+}
+.emojik.apple.b73 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/73.png");
+}
+.emojik.apple.b74 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/74.png");
+}
+.emojik.apple.b75 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/75.png");
+}
+.emojik.apple.b76 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/76.png");
+}
+.emojik.apple.b77 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/77.png");
+}
+.emojik.apple.b78 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/78.png");
+}
+.emojik.apple.b79 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/79.png");
+}
+.emojik.apple.b80 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/80.png");
+}
+.emojik.apple.b81 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/81.png");
+}
+.emojik.apple.b82 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/82.png");
+}
+.emojik.apple.b83 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/83.png");
+}
+.emojik.apple.b84 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/84.png");
+}
+.emojik.apple.b85 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/85.png");
+}
+.emojik.apple.b86 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/86.png");
+}
+.emojik.apple.b87 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/87.png");
+}
+.emojik.apple.b88 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/88.png");
+}
+.emojik.apple.b89 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/89.png");
+}
+.emojik.apple.b90 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/90.png");
+}
+.emojik.apple.b91 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/91.png");
+}
+.emojik.apple.b92 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/92.png");
+}
+.emojik.apple.b93 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/93.png");
+}
+.emojik.apple.b94 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/94.png");
+}
+.emojik.apple.b95 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/95.png");
+}
+.emojik.apple.b96 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/96.png");
+}
+.emojik.apple.b97 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/97.png");
+}
+.emojik.apple.b98 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/98.png");
+}
+.emojik.apple.b99 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/99.png");
+}
+.emojik.apple.b100 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/100.png");
+}
+.emojik.apple.b101 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/101.png");
+}
+.emojik.apple.b102 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/102.png");
+}
+.emojik.apple.b103 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/103.png");
+}
+.emojik.apple.b104 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/104.png");
+}
+.emojik.apple.b105 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/105.png");
+}
+.emojik.apple.b106 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/106.png");
+}
+.emojik.apple.b107 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/107.png");
+}
+.emojik.apple.b108 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/108.png");
+}
+.emojik.apple.b109 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/109.png");
+}
+.emojik.apple.b110 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/110.png");
+}
+.emojik.apple.b111 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/111.png");
+}
+.emojik.apple.b112 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/112.png");
+}
+.emojik.apple.b113 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/113.png");
+}
+.emojik.apple.b114 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/114.png");
+}
+.emojik.apple.b115 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/115.png");
+}
+.emojik.apple.b116 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/116.png");
+}
+.emojik.apple.b117 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/117.png");
+}
+.emojik.apple.b118 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/118.png");
+}
+.emojik.apple.b119 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/119.png");
+}
+.emojik.apple.b120 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/120.png");
+}
+.emojik.apple.b121 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/121.png");
+}
+.emojik.apple.b122 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/122.png");
+}
+.emojik.apple.b123 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/123.png");
+}
+.emojik.apple.b124 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/124.png");
+}
+.emojik.apple.b125 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/125.png");
+}
+.emojik.apple.b126 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/126.png");
+}
+.emojik.apple.b127 {
+  background-image: url("https://raw.githubusercontent.com/obvionaoe/wae/dev/i/127.png");
 }
 ._3ZkhL._3NVMy {
   border-radius: var(--radius) !important;
@@ -536,8 +1257,12 @@ body #group-invite-link-anchor {
   background-color: var(--darker) !important;
 }
 .overlay ._26BZr,
-.overlay .JmH7x {
+.overlay .JmH7x,
+.overlay ._2HiNF {
   color: var(--lighter) !important;
+}
+.overlay ._26BZr {
+  font-weight: normal !important;
 }
 .overlay ._2yVvV {
   color: var(--light) !important;
@@ -639,15 +1364,17 @@ body #group-invite-link-anchor {
 .overlay ._8icek {
   fill-opacity: 0.55;
 }
-.overlay ._2Vo52 .XOIaT {
+.overlay ._2S_XV {
+  color: var(--light) !important;
   background-color: var(--darken) !important;
 }
-.overlay ._2Vo52 ._1WSDe {
+.overlay ._2S_XV * {
+  color: var(--lighter) !important;
+}
+.overlay ._2S_XV + div span:first-child {
   color: var(--light) !important;
 }
-.overlay ._2Vo52 ._3WFBR,
-.overlay ._2Vo52 .vJCph,
-.overlay ._2Vo52 ._2oG62 {
+.overlay ._2S_XV + div span:last-child {
   color: var(--lighter) !important;
 }
 .overlay .WOXAS,
@@ -675,6 +1402,11 @@ body #group-invite-link-anchor {
 }
 .cFkAx._2ojWN ._3FR9x {
   color: var(--light) !important;
+}
+.vLVax {
+  color: var(--light) !important;
+  border-color: var(--darker) !important;
+  background-color: var(--darken) !important;
 }
 [data-animate-status-v3-modal-background = "true"] {
   background-color: var(--t) !important;
@@ -728,8 +1460,11 @@ body #group-invite-link-anchor {
 [data-animate-status-v3-modal-background = "true"] > div ._2EXPL {
   border-top: none;
 }
-.QRsOy {
+._3OHGh {
   background-color: var(--dark) !important;
+}
+._1k6Uw._129il {
+  border-color: var(--darken) !important;
 }
 circle {
   stroke: var(--lighter) !important;
@@ -771,6 +1506,7 @@ span[class][data-icon][data-icon*="logo-"] > svg > path:last-child {
 }
 span[class][data-icon][data-icon="muted"] > svg > path,
 span[class][data-icon][data-icon="pinned"] > svg > path,
+span[class][data-icon][data-icon="status-time"] > svg > path,
 span[class][data-icon][data-icon="status-image"] > svg > path,
 span[class][data-icon][data-icon="status-video"] > svg > path,
 span[class][data-icon][data-icon="status-gif"] > svg > path,
@@ -780,8 +1516,9 @@ span[class][data-icon][data-icon="status-document"] > svg > path,
 span[class][data-icon][data-icon="status-ptt-gray"] > svg > path,
 span[class][data-icon][data-icon="recalled-in"] > svg > path,
 span[class][data-icon][data-icon="recalled-out"] > svg > path {
-  fill-opacity: 0.25 !important;
+  fill-opacity: 0.3 !important;
 }
+span[class][data-icon][data-icon="msg-time"] > svg > path,
 span[class][data-icon][data-icon="forwarded"] > svg > path {
   fill-opacity: 0.55 !important;
 }
@@ -884,9 +1621,6 @@ span[class][data-icon = "star-light"] > svg > path {
 }
 span[class][data-icon = "down"] {
   fill-opacity: 0.55;
-}
-span[class][data-icon = "down"] path {
-  fill: var(--white) !important;
 }
 div:not(#z)[style ^= "transform-origin:"] {
   border: 1px solid var(--darker);
@@ -1034,7 +1768,8 @@ div[class *= "gQzdc"] > span > div {
   background-color: var(--t) !important;
 }
 div[class *= "gQzdc"] ._183ES,
-div[class *= "gQzdc"] ._201Bk {
+div[class *= "gQzdc"] ._201Bk,
+div[class *= "gQzdc"] ._2cLHw {
   color: var(--lighter) !important;
 }
 #side #pane-side {
@@ -1416,6 +2151,9 @@ div[class *= "gQzdc"] ._201Bk {
 ._2mlDB {
   border-color: var(--darken) !important;
 }
+._1-iDe._1xXdX ._2vPAk {
+  border-right: 1px solid var(--darker) !important;
+}
 ._1-iDe._14VS3 > span {
   border-left: 1px solid var(--darker);
 }
@@ -1483,6 +2221,9 @@ div[class *= "gQzdc"] ._201Bk {
 }
 #main ._298R6:hover {
   background-color: var(--darker) !important;
+}
+#main ._298R6:hover svg path {
+  fill-opacity: 1 !important;
 }
 #main ._298R6 .P6z4j {
   color: var(--white) !important;
@@ -1638,7 +2379,7 @@ a[href][target = "_blank"] > :last-child,
 }
 .message-in > div:not(._1rK-b),
 .message-out > div:not(._1rK-b) {
-  box-shadow: 0 1px 0.5px var(--shadow) !important;
+  box-shadow: 0 1px var(--shadow) !important;
 }
 .message-in > div:not(._1rK-b) > div,
 .message-out > div:not(._1rK-b) > div {
@@ -1703,10 +2444,11 @@ a[href][target = "_blank"] > :last-child,
 .message-out div[style *= "width"][style *= "height"] + .GbMip {
   padding: 2px 5px;
   border-radius: 7.5px;
-  background-color: var(--darken) !important;
+  background-color: var(--dark) !important;
 }
 .message-in .video-thumb ._1Ppwx,
-.message-out .video-thumb ._1Ppwx {
+.message-out .video-thumb ._1Ppwx,
+._2G09- > ._2Pjvv {
   padding: 2px 5px;
   border-radius: 7.5px;
   color: var(--light) !important;
@@ -1748,8 +2490,7 @@ a[href][target = "_blank"] > :last-child,
 .message-in [role] > span[role = "button"] + span {
   color: var(--light) !important;
 }
-.message-in > div > span:last-child > div[style]:not(._1UyGF),
-._1i1U7.jZ4tp {
+.message-in > div > span:last-child > div[style]:not(._1qhoQ) {
   height: 22px !important;
   background: linear-gradient(90deg, var(--t), var(--msg-l) 80%) !important;
 }
@@ -1767,29 +2508,35 @@ a[href][target = "_blank"] > :last-child,
 .message-in > div > span:last-child > div[style]._38wik._2Nkc4 {
   background: linear-gradient(270deg, var(--t), var(--msg-l) 80%) !important;
 }
+.message-in > div > span:nth-last-child(2) > div[style].jZ4tp._1i1U7 {
+  background: linear-gradient(90deg, var(--t), var(--msg-l) 80%) !important;
+}
+.message-in > div > span:nth-last-child(2) > div[style].jZ4tp._1i1U7._2Cju4 {
+  background: none !important;
+}
 .message-in ._1iJeo {
   background-color: var(--dark) !important;
 }
 .message-in ._1iJeo:hover {
   opacity: 0.8;
 }
-.message-out > div:not(._1rK-b) > div:not(._19l4G) {
+.message-out > div:not(._1rK-b) > div:not(.YsGwW) {
   color: var(--light) !important;
   background-color: var(--msg-r) !important;
 }
-.message-out ._19l4G:not(#z) > :first-child:not(:last-child) {
+.message-out .YsGwW:not(#z) > :first-child:not(:last-child) {
   color: var(--light) !important;
   background-color: var(--darken) !important;
   box-shadow: inset 0 0 0 1px var(--darker), var(--bshadow);
 }
-.message-out ._19l4G:not(#z) > :first-child:not(:last-child)::after {
+.message-out .YsGwW:not(#z) > :first-child:not(:last-child)::after {
   border-left-color: var(--darker) !important;
 }
-.message-out ._19l4G:not(#z) > [role = "button"] {
+.message-out .YsGwW:not(#z) > [role = "button"] {
   border-color: var(--shadow) !important;
   background-color: var(--red) !important;
 }
-.message-out ._19l4G:not(#z) > [role = "button"] path[fill = "#FFF"] {
+.message-out .YsGwW:not(#z) > [role = "button"] path[fill = "#FFF"] {
   fill: var(--white) !important;
 }
 .message-out > div._1rK-b ._2Ll5c {
@@ -1820,10 +2567,10 @@ a[href][target = "_blank"] > :last-child,
   background: linear-gradient(270deg, var(--t), var(--msg-r) 80%) !important;
 }
 .message-out > div > span:nth-last-child(2) > div[style]._1i1U7 {
-  background: linear-gradient(90deg, var(--t), var(--dark) 60%) !important;
+  background: linear-gradient(90deg, var(--t), var(--msg-r) 60%) !important;
 }
-.message-out > div > span:nth-last-child(2) > div[style].jZ4tp {
-  background: linear-gradient(90deg, var(--t), var(--msg-r) 80%) !important;
+.message-out > div > span:nth-last-child(2) > div[style]._2Cju4 {
+  background: none !important;
 }
 .message-out ._1iJeo {
   background-color: var(--dark) !important;
@@ -1846,7 +2593,10 @@ a[href][target = "_blank"] > :last-child,
 }
 ._1drQ- ._7HWvs,
 ._1dGTK ._7HWvs,
-.r3Nu1 ._7HWvs {
+.r3Nu1 ._7HWvs,
+._1drQ- ._2n7FA,
+._1dGTK ._2n7FA,
+.r3Nu1 ._2n7FA {
   color: var(--lighter) !important;
 }
 ._1drQ- .CzI8E,
@@ -1854,9 +2604,9 @@ a[href][target = "_blank"] > :last-child,
 .r3Nu1 .CzI8E {
   border-color: var(--accent) !important;
 }
-._1drQ- ._1u0aP,
-._1dGTK ._1u0aP,
-.r3Nu1 ._1u0aP {
+._1drQ- ._1qE6k,
+._1dGTK ._1qE6k,
+.r3Nu1 ._1qE6k {
   color: var(--light) !important;
   background-color: var(--darker) !important;
   box-shadow: var(--bshadow) !important;
@@ -1873,6 +2623,9 @@ a[href][target = "_blank"] > :last-child,
 [role = "button"]._1Dfrr:hover {
   background-color: var(--accent) !important;
   box-shadow: var(--bshadow);
+}
+.GpvML {
+  background-color: var(--dark) !important;
 }
 [role = "button"]._1ypOz {
   color: var(--accent) !important;
@@ -1921,17 +2674,17 @@ a[href][target = "_blank"] > :last-child,
 ._23EHf::before {
   content: none;
 }
-._1k6Uw {
+._1k6Uw._2CjPi {
   margin-bottom: 8px;
   border: 1px solid var(--darker) !important;
   background-color: var(--t) !important;
   border-radius: var(--radius) !important;
   box-shadow: var(--bshadow) !important;
 }
-._1k6Uw::before {
+._1k6Uw._2CjPi::before {
   box-shadow: none !important;
 }
-._1k6Uw > div {
+._1k6Uw._2CjPi > div {
   border-radius: var(--radius) !important;
   box-shadow: none !important;
 }
@@ -1966,7 +2719,6 @@ a[href][target = "_blank"] > :last-child,
 #main > footer ._1vDUw ._1qUma,
 ._3ZkhL._3NVMy ._1qUma {
   background-color: var(--darken) !important;
-  box-shadow: inset 0 1px var(--darker), inset 0 -1px var(--darker);
 }
 #main > footer ._1vDUw ._1qUma div[style *= "background"],
 ._3ZkhL._3NVMy ._1qUma div[style *= "background"] {
@@ -1993,6 +2745,9 @@ a[href][target = "_blank"] > :last-child,
 ._3ZkhL._3NVMy ._1qUma ._1Wbpa {
   height: 1px;
   background-color: var(--accent) !important;
+}
+#main > footer ._1vDUw ._1qUma {
+  box-shadow: inset 0 1px var(--darker), inset 0 -1px var(--darker) !important;
 }
 #main > footer ._1vDUw ._3tlsa,
 #main > footer ._1vDUw ._2HBs4,
@@ -2045,18 +2800,18 @@ a[href][target = "_blank"] > :last-child,
   border-top: 1px solid var(--darker);
   background-color: var(--darken) !important;
 }
-#main > footer ._2Pown {
+#main > footer .TYhk9 {
   color: var(--light) !important;
   border-color: var(--darker) !important;
   background-color: var(--darken) !important;
 }
-#main > footer ._2Pown [role = "button"] {
+#main > footer .TYhk9 [role = "button"] {
   color: var(--lighter) !important;
   background-color: var(--darker) !important;
 }
-#main > footer ._2Pown [role = "button"]:hover {
+#main > footer .TYhk9 [role = "button"]:hover {
   color: var(--light) !important;
-  box-shadow: 0 4px 8px var(--shadow);
+  box-shadow: var(--bshadow);
 }
 #main > footer ._2XiC1 {
   color: var(--lighter) !important;
@@ -2071,20 +2826,11 @@ a[href][target = "_blank"] > :last-child,
 }
 #main > footer .rstyJ > div:first-child:not(#z) {
   margin: 4px 0 8px 66px;
-  background-color: var(--darken) !important;
-}
-#main > footer .rstyJ > div:first-child:not(#z) div[role] {
+  box-shadow: inset 0 0 0 1px var(--darker);
   background-color: var(--darken) !important;
 }
 .quoted-mention {
   color: var(--lighter) !important;
-}
-#main > footer .rstyJ > div:first-child:not(#z) [class *= "bg-color"] + [dir] {
-  border-radius: 0 6px 6px 0 !important;
-  box-shadow: inset 0 0 0 1px var(--darker);
-}
-#main > footer .rstyJ > div:first-child:not(#z) .EebcE + div {
-  box-shadow: inset 0 0 0 1px var(--darker);
 }
 #main > footer .rstyJ div:last-child {
   position: relative;
@@ -2093,6 +2839,7 @@ a[href][target = "_blank"] > :last-child,
 #main > footer .rstyJ div:last-child [role = "button"] > span > svg {
   padding: 16px;
   border-radius: 6px;
+  fill-opacity: 0.55;
 }
 #main > footer .Uukb4 {
   border-color: var(--darker) !important;
@@ -2141,7 +2888,7 @@ a[href][target = "_blank"] > :last-child,
   }
   .two > div:nth-child(2) > div:nth-child(2) {
     flex: 0 0 calc(100% - 80px) !important;
-    margin-left: calc(-25% + 80px);
+    margin-left: calc(-30% + 80px);
   }
   .two > div:nth-child(3) {
     min-width: 1px !important;
@@ -2149,7 +2896,8 @@ a[href][target = "_blank"] > :last-child,
     transition-delay: var(--c-m-delay) !important;
   }
   .two > div:nth-child(3):hover {
-    min-width: 400px !important;
+    min-width: 349px !important;
+    margin-left: -1px !important;
     transition-delay: var(--c-m-hover) !important;
     flex: 0 0 30% !important;
   }
@@ -2160,9 +2908,12 @@ a[href][target = "_blank"] > :last-child,
   .two > :nth-child(2) > :nth-child(1) [style][tabindex] {
     border-right: 1px solid var(--darker) !important;
   }
+  .two ._1xXdX:hover {
+    min-width: 349px !important;
+  }
   .three > div:nth-child(2) > div:nth-child(2) {
     flex: 0 0 calc(100% - 30% - 80px) !important;
-    margin-left: calc(-25% + 80px);
+    margin-left: calc(-30% + 80px);
   }
   .three > div:nth-child(4) {
     flex: 0 0 calc(100% - 30% - 80px) !important;
@@ -2170,7 +2921,8 @@ a[href][target = "_blank"] > :last-child,
   .three > div:nth-child(3):hover {
     flex: 0 0 80px !important;
   }
-  .three ._14VS3 {
+  .three ._14VS3,
+  .three ._1xXdX {
     flex: 0 0 30% !important;
     border-color: var(--t) !important;
   }
