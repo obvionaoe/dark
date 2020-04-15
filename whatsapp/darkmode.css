@@ -21,10 +21,9 @@
   --shadow: rgba(0,0,0,0.145);
   --sh-h: rgba(0,0,0,0.208);
   --bshadow: 0 2px 4px var(--shadow);
-  --app-width: 1396px;
+  --app-width: 100%;
   --emoji-o: 0.8;
   --avatar-r: 50%;
-  --bg-image: url("https://raw.githubusercontent.com/vednoc/dark-whatsapp/master/images/bg-blur-high.jpg");
   --bg-opacity: 0.4;
   --bg-blur: 0px;
   --bg-hue: 320deg;
@@ -35,9 +34,8 @@
   --c-m-hover: 0.6s;
   --c-m-delay: 1.2s;
   --ui-font: "custom font", "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
-  --version: "Dark-WhatsApp v2.3.6 — April 4th, 2020";
-  --message: "Fixing more bugs! 🎉 🥳 I published an important update about my userstyles, please read it: ";
-  --changes: "https://vednoc.me/blog/the-end-of-an-era";
+  --version: "darkWhatsApp";
+  --link: "https://github.com/obvionaoe/dark";
 }
 @supports (-moz-user-select: none) {
   :root * {
@@ -253,14 +251,14 @@ body ._2zynu h1 + div[class]::before {
   display: block;
   font-size: 16px;
   margin-bottom: -16px;
-  content: var(--message) var(--changes);
+  content: var(--version);
 }
 body ._2zynu h1 + div[class]::after {
   display: block;
   font-size: 16px;
   margin-top: 16px;
   padding-top: 16px;
-  content: var(--version);
+  content: var(--link);
   border-top: 1px solid var(--darker);
 }
 body ._2zynu ._3ZVgT {
@@ -394,7 +392,6 @@ body #group-invite-link-anchor {
   height: unset;
   width: unset;
   filter: blur(var(--bg-blur)) opacity(var(--bg-opacity)) invert(var(--bg-invert)) hue-rotate(var(--bg-hue));
-  background-image: var(--bg-image);
   background-size: cover;
   background-color: var(--t) !important;
 }
