@@ -136,6 +136,12 @@ input::-webkit-input-placeholder {
     background-color: transparent !important;
 }
 
+/* deleted messages */
+._7301._hh7, ._7301._hh7._hh7._6ybn {
+    color: #eee !important;
+    background-color: #2d2d30 !important;
+}
+
 /* reactions */
 ._aou {
     background-color: #222 !important;
