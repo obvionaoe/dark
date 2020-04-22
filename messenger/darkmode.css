@@ -138,8 +138,9 @@ input::-webkit-input-placeholder {
 
 /* deleted messages */
 ._7301._hh7, ._7301._hh7._hh7._6ybn {
-    color: #eee !important;
-    background-color: #2d2d30 !important;
+    background: transparent !important;
+    border-color:rgba(255, 255, 255, .1) !important;
+    color: rgba(255, 255, 255, .4) !important;
 }
 
 /* reactions */
@@ -207,6 +208,11 @@ input::-webkit-input-placeholder {
     color: rgba(255, 255, 255, .6) !important;
 }
 
+/* share border-colors */
+.__6j._43kk {
+    border-color: #2D2D30 !important;
+}
+
 /* carousel arrow */
 ._5x5z {
     background-color: #1e1e1e !important;
@@ -253,12 +259,6 @@ input::-webkit-input-placeholder {
 
 .fbNubFlyoutHeader, .fbNubFlyoutBody, .fbNubFlyoutFooter, .fbNubFlyoutAttachments {
     background-color: #1e1e1e;
-}
-
-/* text input */
-._kmc._7kpg ._1p1t {
-    color: #aaa !important;
-    -webkit-text-fill-color: rgba(255, 255, 255, .6) !important;
 }
 
 /* composer reply */
@@ -354,6 +354,10 @@ input::-webkit-input-placeholder {
 /* group chat icon dps */
 ._57pl, ._57pm {
     border-color: transparent !important;
+}
+
+._7q1i, ._7q0v {
+	border-color: #222 !important;
 }
 
 /* message request from */
@@ -639,14 +643,22 @@ div._4-i2, div._5a8u {
 /* stuff that should be grey */
 ._ih3, ._3tl0, ._3tl1 ._10w4, ._497p, ._3x6v, ._2v6o, ._3tky, ._5rh4, ._5qsj, ._jf4 ._jf3, ._5i_d .__6m, ._2y8z,
 ._4g0h, ._3xcx, ._225b, ._3q35, ._2r2v, ._2n1t, ._1n-e, ._3eus, ._2wy4, ._1u5d ._1u5k, ._3ggt,
-._17cj ._2ze8, ._17cj ._cen, ._5sr7, ._4nw0 {
+._17cj ._2ze8, ._17cj ._cen, ._5sr7, ._4nw0, ._1p1v {
     color: rgba(255, 255, 255, .6) !important;
+    -webkit-text-fill-color: rgba(255, 255, 255, .6) !important;
 }
 
+/* names in group info */
+._8slc {
+    color: #ddd !important;
+}
+
+/* scrollbar of emojis */
 ::-webkit-scrollbar, ::-webkit-scrollbar-corner {
     background-color: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #2e2e2e !important;
+    background: #272727 !important;
+    border-radius: 5px;
 }
