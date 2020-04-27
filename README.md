@@ -1,3 +1,8 @@
+<p align="center" style="text-align: center;">
+  </br>
+  <img src="https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/icon.png" width="198"/>
+</p>
+
 # **Dark**
 
 **This repository is a collection of dark themes that I use for some messaging services, if you'd like me to add anything, let me know through an issue!
