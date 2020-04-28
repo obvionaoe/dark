@@ -5,8 +5,7 @@
 
 # **Dark**
 
-**This repository is a collection of dark themes that I use for some messaging services, if you'd like me to add anything, let me know through an issue!
-If you made a theme and would like it put here with some others, let me know by creating a PR!**
+**This repository is a collection of dark themes that I use for some messaging services, if something's broken, let me know through an issue!
 
 For Instagram I also have a function to make the **ENTER** key send the messages.\
 \
