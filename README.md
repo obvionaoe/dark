@@ -5,7 +5,7 @@
 
 # **Dark**
 
-**This repository is a collection of dark themes that I use for some messaging services, if something's broken, let me know through an issue!
+**This repository is a collection of dark themes for Rambox, Franz or Ferdi that I use in some messaging services, if something's broken, let me know through an issue!**
 
 For Instagram I also have a function to make the **ENTER** key send the messages.\
 \
