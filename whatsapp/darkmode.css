@@ -21,8 +21,8 @@
   --shadow: rgba(0,0,0,0.145);
   --sh-h: rgba(0,0,0,0.208);
   --bshadow: 0 2px 4px var(--shadow);
-  --side-width: 15%;
   --app-width: 100%;
+  --side-width: 15%;
   --emoji-o: 0.8;
   --avatar-r: 50%;
   --bg-opacity: 0.4;
@@ -30,15 +30,15 @@
   --bg-hue: 320deg;
   --bg-invert: 0;
   --chat-image: url("https://web.whatsapp.com/img/bg-chat-tile_9e8a2898faedb7db9bf5638405cf81ae.png");
-  --chat-bg-o: 0.1;
+  --chat-bg-o: 0.15;
   --chat-bg-i: 0.6;
   --c-m-hover: 0.6s;
   --c-m-delay: 1.2s;
   --blur-in: 0.4s;
   --blur-out: 0.2s;
   --ui-font: "custom font", "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
-  --version: "Dark-WhatsApp v2.4.0";
-  --link: "https://github.com/obvionaoe/dark";
+  --message: "dark";
+  --changes: "https://github.com/obvionaoe/dark";
 }
 @supports (-moz-user-select: none) {
   :root * {
@@ -138,7 +138,7 @@ body .landing-header::after {
   font-size: 14px;
   font-weight: 500;
   position: absolute;
-  content: var(--version);
+  content: var(--changes);
 }
 body .landing-window:not(#z) {
   border-radius: var(--radius);
@@ -255,14 +255,14 @@ body ._2zynu h1 + div[class]::before {
   font-size: 16px;
   margin-bottom: -16px;
   white-space: pre-wrap;
-  content: var(--version);
+  content: var(--message);
 }
 body ._2zynu h1 + div[class]::after {
   display: block;
   font-size: 16px;
   margin-top: 16px;
   padding-top: 16px;
-  content: var(--link);
+  content: var(--changes);
   border-top: 1px solid var(--darker);
 }
 body ._2zynu ._3ZVgT {
@@ -275,7 +275,7 @@ body ._2a2hS {
   background-color: var(--darker) !important;
 }
 body span[title *= "typing..."],
-body ._2ZAIy {
+body .vdXUe {
   color: var(--accent) !important;
 }
 .matched-text:not(#z) {
@@ -604,6 +604,13 @@ body #group-invite-link-anchor {
   background-color: var(--accent) !important;
   box-shadow: var(--bshadow);
 }
+.overlay [data-animate-modal-popup]:not(._2ILbv) .copyable-area.r3Nu1,
+.overlay [data-animate-modal-popup]:not(._2ILbv) .copyable-area._1dGTK {
+  border-left: none !important;
+}
+._3UUn3 {
+  background-color: var(--darken) !important;
+}
 .overlay [data-animate-modal-popup]:not(._2ILbv) span[role = "button"] {
   color: var(--accent) !important;
 }
@@ -629,7 +636,10 @@ body #group-invite-link-anchor {
   background-color: var(--darken) !important;
   box-shadow: var(--bshadow);
 }
-.overlay [data-animate-modal-body] ._2HyTU,
+.overlay [data-animate-modal-body] ._2LALH span:hover {
+  opacity: 0.6;
+}
+.overlay [data-animate-modal-body] ._2hytu,
 .overlay [data-animate-modal-body] ._22aOT {
   min-height: 91px;
   background-color: var(--darken) !important;
@@ -700,6 +710,21 @@ body #group-invite-link-anchor {
   color: var(--light) !important;
   border-color: var(--darker) !important;
   background-color: var(--darken) !important;
+}
+[style *= "d-color: rgb(237, 233, 228)"] {
+  position: relative;
+}
+[style *= "d-color: rgb(237, 233, 228)"]::before {
+  content: "Use this for Dark-WhatsApp";
+  position: absolute;
+  font-size: 15px;
+  width: 100%;
+  color: #000 !important;
+}
+[style *= "rgb(222, 227, 233)"],
+[style *= "rgb(217, 218, 222)"],
+[style *= "rgb(192, 193, 196)"] {
+  background-color: var(--dark) !important;
 }
 [data-animate-status-v3-modal-background = "true"] {
   background-color: var(--t) !important;
@@ -884,6 +909,7 @@ span[class][data-icon *= "check"] path {
 span[class][data-icon = "exit"] path,
 span[class][data-icon = "thumbs-down"] path,
 span[class][data-icon = "delete-danger"] path,
+span[class][data-icon = "status-miss_video"] path,
 span[class][data-icon ^= "miss"] path {
   fill: var(--red) !important;
 }
@@ -978,14 +1004,9 @@ div:not(#z)[style ^= "transform-origin:"].XhRTI ._2Par4 {
   bottom: -8px;
   background-color: var(--darken) !important;
 }
-/*side width for border of div
-.YD4Yw._1-iDe _1xXdX {
-  width: var(--side-width) !important;
-}
 #side {
   background-color: var(--dark) !important;
-  width: var(--side-width) !important;
-}*/
+}
 #side > header {
   border-bottom: 1px solid var(--darker);
   background-color: var(--darken) !important;
@@ -1276,12 +1297,8 @@ div[class *= "gQzdc"] ._2cLHw {
 ._1-iDe .copyable-area .MS-DH ._2-rkJ::before {
   color: var(--lighter) !important;
 }
-._1-iDe .copyable-area .MS-DH .tail,
-._1-iDe .copyable-area .MS-DH .tail > div[class] {
-  border-radius: 7.5px !important;
-}
-._1-iDe .copyable-area .MS-DH .tail-container {
-  display: none !important;
+._1-iDe .copyable-area .MS-DH .tail-override-left [data-icon = "tail-out"] {
+  transform: rotateY(180deg) !important;
 }
 ._1-iDe .copyable-area #pane-side {
   background-color: var(--t) !important;
@@ -1452,8 +1469,13 @@ div[class *= "gQzdc"] ._2cLHw {
 ._2mlDB {
   border-color: var(--darken) !important;
 }
-._1-iDe._1xXdX ._2vPAk {
-  border-right: 1px solid var(--darker) !important;
+._14VS3 .copyable-area [data-list-scroll-container] ._1o1sm::before {
+  background-color: var(--t) !important;
+}
+@media screen and (max-width: 720px) {
+  ._1-iDe._1xXdX ._2vPAk {
+    border-right: 1px solid var(--darker) !important;
+  }
 }
 ._1-iDe._14VS3 > span {
   border-left: 1px solid var(--darker);
@@ -1645,10 +1667,12 @@ div[class *= "gQzdc"] ._2cLHw {
 ._2RBFb {
   background-color: var(--dark) !important;
 }
-._2DwXW {
+._2DwXW,
+._2DwXW span::before {
   color: var(--lighter) !important;
 }
-._3_nIn {
+._3_nIn,
+._3Kp0Q {
   background-color: rgba(85,85,85,0.063) !important;
 }
 a[href][target = "_blank"] > *,
@@ -1686,12 +1710,17 @@ a[href][target = "_blank"] > :last-child,
 .message-out > div:not(._1rK-b) > div {
   box-shadow: none !important;
 }
-.message-in .tail > .tail-container,
-.message-out .tail > .tail-container {
-  width: unset;
-  height: unset;
-  border: 6px solid var(--t);
-  background: none !important;
+.message-in [data-icon *= "tail"] svg path:first-child,
+.message-out [data-icon *= "tail"] svg path:first-child {
+  fill: var(--shadow) !important;
+}
+.message-in [data-icon = "tail-in"] svg path:last-child,
+.message-out [data-icon = "tail-in"] svg path:last-child {
+  fill: var(--msg-l) !important;
+}
+.message-in [data-icon = "tail-out"] svg path:last-child,
+.message-out [data-icon = "tail-out"] svg path:last-child {
+  fill: var(--msg-r) !important;
 }
 .message-in [data-pre-plain-text] + div *,
 .message-out [data-pre-plain-text] + div *,
@@ -1715,10 +1744,6 @@ a[href][target = "_blank"] > :last-child,
 .message-in ._1rK-b ._2Ll5c div,
 .message-out ._1rK-b ._2Ll5c div {
   color: inherit;
-}
-.message-in ._1rK-b :not(.tail) > div > ._2Hp95._1X6iJ ._2R8MP,
-.message-out ._1rK-b :not(.tail) > div > ._2Hp95._1X6iJ ._2R8MP {
-  border-radius: 7.5px;
 }
 .message-in ._1lxsr,
 .message-out ._1lxsr,
@@ -1780,14 +1805,6 @@ a[href][target = "_blank"] > :last-child,
   background-color: var(--msg-l) !important;
   box-shadow: 0 1px 0.5px var(--shadow) !important;
 }
-.message-in .tail {
-  border-top-left-radius: 0 !important;
-}
-.message-in .tail > .tail-container {
-  border-radius: 4px 0 0 0;
-  border-top-color: var(--msg-l);
-  border-right-color: var(--msg-l);
-}
 .message-in [role] > span[role = "button"] + span {
   color: var(--light) !important;
 }
@@ -1842,14 +1859,6 @@ a[href][target = "_blank"] > :last-child,
 }
 .message-out > div._1rK-b ._2Ll5c {
   background-color: var(--msg-r) !important;
-}
-.message-out .tail {
-  border-top-right-radius: 0 !important;
-}
-.message-out .tail > .tail-container {
-  border-radius: 0 4px 0 0;
-  border-top-color: var(--msg-r);
-  border-left-color: var(--msg-r);
 }
 .message-out > div > span:last-child > div[style]:not(._1qhoQ) {
   background: linear-gradient(90deg, var(--t), var(--msg-r) 80%) !important;
@@ -2310,12 +2319,14 @@ a[href][target = "_blank"] > :last-child,
     min-width: 80px !important;
   }
 }
+
 /*side pane width*/
 @media screen and (min-width: 1301px) {
   .two ._1xXdX {
     flex: var(--side-width) !important;
   }
 }
+
 ._1QjgA {
   color: var(--accent) !important;
 }
