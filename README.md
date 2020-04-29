@@ -7,12 +7,6 @@
 
 **This repository is a collection of dark themes for Rambox, Franz or Ferdi that I use in some messaging services, if something's broken, let me know through an issue!**
 
-For Instagram I also have a function to make the **ENTER** key send the messages.\
-\
-**Yes**, I am aware that this is not working properly in **Ferdi**, as it adds an extra enter in the text box after sending.\
-I believe this is due to the way **Ferdi** injects JavaScript though, as the exact same function works perfectly in **Rambox**.\
-If someone has a solution, please let me know!
-
 ## **Applying the themes**
 
 ### **Rambox**
@@ -110,6 +104,14 @@ Same steps you use for applying them in the first place.
 
 ## **Themes**
 
+* **Instagram** - forked from [vednoc/dark-instagram](https://github.com/vednoc/dark-instagram)
+
+&nbsp;<details>
+    <summary>Screenshot</summary>
+  
+    ![Messenger](https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/screenshots/instagram.png)
+  </details>
+
 * **Messenger** - forked from [auscompgeek/fb-messenger-dark](https://github.com/auscompgeek/fb-messenger-dark)\
 (Bugfixed and improved)
 &nbsp;<details>
@@ -118,7 +120,8 @@ Same steps you use for applying them in the first place.
     ![Messenger](https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/screenshots/messenger.png)
   </details>
 
-* **Telegram** - forked from [Web Telegram Dark & Wide Screen](https://userstyles.org/styles/155933/web-telegram-dark-wide-screen)
+* **Telegram** - forked from [Barina/Dark-Telegram](https://github.com/Barina/Dark-Telegram)\
+(Bugfixed and optimized performance)
 &nbsp;<details>
     <summary>Screenshot</summary>
   
