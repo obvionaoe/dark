@@ -105,7 +105,6 @@ Same steps you use for applying them in the first place.
 ## **Themes**
 
 * **Instagram** - forked from [vednoc/dark-instagram](https://github.com/vednoc/dark-instagram)
-
 &nbsp;<details>
     <summary>Screenshot</summary>
   
