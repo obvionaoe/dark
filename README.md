@@ -104,47 +104,51 @@ Same steps you use for applying them in the first place.
 
 ## **Themes**
 
+![Instagram](https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/icons/instagram.png)
 
-<div style="vertical-align:middle;">
-  <img src="https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/icons/instagram.png" style="vertical-align:middle;
-  max-height:100%;"> <b>Instagram</b> - forked from <a href="https://github.com/vednoc/dark-instagram"><b>vednoc/dark-instagram</b></a>
+**Instagram** - forked from [**vednoc/dark-instagram**](https://github.com/vednoc/dark-instagram)
 
-  <details style="margin-top: -1%; margin-left: 6.5%; margin-bottom: 2%;">
-    <summary>Screenshot</summary>
+<details>
+  <summary>Screenshot</summary>
   
   ![Instagram](https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/screenshots/instagram.png)
-  </details>
-</div>
+</details>
 
-<div style="vertical-align:middle;">
-  <img src="https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/icons/messenger.png" style="vertical-align:middle;
-  max-height:100%;"> <b>Messenger</b> - forked from <a href="https://github.com/auscompgeek/fb-messenger-dark"><b>auscompgeek/fb-messenger-dark</b></a>
-  <p style="margin-top: -2%; margin-left: 6.3%">(Bugfixed and improved)</p>
-  <details style="margin-top: -1%; margin-left: 6.5%; margin-bottom: 2%;">
-    <summary>Screenshot</summary>
+</br>
+
+![Messenger](https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/icons/messenger.png)
+
+**Messenger** - forked from [**auscompgeek/fb-messenger-dark**](https://github.com/auscompgeek/fb-messenger-dark)\
+(Bugfixed and improved)
+
+<details>
+  <summary>Screenshot</summary>
   
   ![Messenger](https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/screenshots/messenger.png)
-  </details>
-</div>
+</details>
 
-<div style="vertical-align:middle;">
-  <img src="https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/icons/telegram.png" style="vertical-align:middle;
-  max-height:100%;"> <b>Telegram</b> - forked from <a href="https://github.com/Barina/Dark-Telegram"><b>Barina/Dark-Telegram</b></a>
-  <p style="margin-top: -2%; margin-left: 6.3%">(Bugfixed and optimized performance)</p>
-  <details style="margin-top: -1%; margin-left: 6.5%; margin-bottom: 2%;">
-    <summary>Screenshot</summary>
+</br>
+
+![Telegram](https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/icons/telegram.png)
+
+**Telegram** - forked from [**Barina/Dark-Telegram**](https://github.com/Barina/Dark-Telegram)\
+(Bugfixed and optimized performance)
+
+<details>
+  <summary>Screenshot</summary>
   
-  ![Telegram](https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/screenshots/telegram.png)
-  </details>
-</div>
+  ![Messenger](https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/screenshots/telegram.png)
+</details>
 
-<div style="vertical-align:middle;">
-  <img src="https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/icons/whatsapp.png" style="vertical-align:middle;
-  max-height:100%;"> <b>WhatsApp</b> - forked from <a href="https://github.com/vednoc/dar-whatsapp"><b>vednoc/dark-whatsapp</b></a>
-  <p style="margin-top: -2%; margin-left: 6.3%">(Optimized performance)</p>
-  <details style="margin-top: -1%; margin-left: 6.5%; margin-bottom: 2%;">
-    <summary>Screenshot</summary>
+</br>
+
+![WhatsApp](https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/icons/whatsapp.png)
+
+**WhatsApp** - forked from [**vednoc/dark-whatsapp**](https://github.com/vednoc/dark-whatsapp)\
+(Optimized performance)
+
+<details>
+  <summary>Screenshot</summary>
   
   ![WhatsApp](https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/screenshots/wa.png)
-  </details>
-</div>
+</details>
