@@ -101,9 +101,14 @@ input::-webkit-input-placeholder {
     color: #eee !important;
 }
 
+/* mention message from gif */
+._29_7._3058._s1-._6e6n {
+    border-color: transparent !important;
+}
+
 /* message */
 ._29_7 ._hh7, ._29_7._-5k ._hh7 {
-    background-color: #2d2d30;
+    background-color: #2d2d30 !important;
 }
 
 ._29_7 ._hh7 {
@@ -325,6 +330,10 @@ input::-webkit-input-placeholder {
 }
 
 /* convo list */
+._1enh {
+    max-width: 350px !important;
+}
+
 ._li ._1enh {
     /* fix convo list hiders */
     background-color: #1e1e1e;
