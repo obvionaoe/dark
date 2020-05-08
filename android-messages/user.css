@@ -1,0 +1,6 @@
+@media (min-width: 1440px) {
+  .main-nav {
+    min-width: 350px !important;
+    width: 350px !important;
+  }
+}
