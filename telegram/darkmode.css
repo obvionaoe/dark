@@ -365,6 +365,9 @@ a.pull-right,
   width: 0;
   height: 0;
 }
+div.im_history_col_wrap {
+  width: calc(100% - 350px) !important;
+}
 .im_history_not_selected {
   margin: auto;
   width: 70%;
@@ -373,7 +376,7 @@ a.pull-right,
 }
 .im_history_not_selected:before {
   display: block;
-  content: "Please report any issues on GitHub so that we can fix them." " \A " "https://github.com/Barina/Dark-Telegram" " \A";
+  content: "Please report any issues on GitHub so that we can fix them." " \A \A " "https://github.com/obvionaoe/dark" " \A";
   white-space: pre-wrap;
   border-bottom: 1px solid #333943;
   font-size: 16px;
@@ -384,7 +387,8 @@ a.pull-right,
 }
 .im_history_not_selected:after {
   display: block;
-  content: "Ported from: https://github.com/vednoc/dark-whatsapp" '\A' "Dark-Telegram v1.1.19 — April 28th, 2020";
+  font-weight: bold;
+  content: "dark by obvionaoe";
   white-space: pre-wrap;
   border-top: 1px solid #333943;
   font-size: 11px;
@@ -648,13 +652,13 @@ a.md_modal_action:hover,
   div .tg_page_head .tg_head_split .tg_head_logo_wrap:hover,
   .page_wrap .im_page_wrap .im_page_split .im_dialogs_col_wrap:hover,
   .page_wrap .im_page_wrap .im_page_split .im_dialogs_col_wrap:focus-within {
-    width: 17% !important;
+    width: 18.7% !important;
   }
   .page_wrap .im_page_wrap .im_page_split .im_dialogs_col_wrap:hover .tg_head_main_wrap,
   .page_wrap .im_page_wrap .im_page_split .im_dialogs_col_wrap:focus-within .tg_head_main_wrap,
   .page_wrap .im_page_wrap .im_page_split .im_dialogs_col_wrap:hover ~ .im_history_col_wrap,
   .page_wrap .im_page_wrap .im_page_split .im_dialogs_col_wrap:focus-within ~ .im_history_col_wrap {
-    width: 83% !important;
+    width: 81.3% !important;
   }
   .page_wrap .im_page_wrap .im_page_split .im_dialogs_col_wrap:hover .tg_head_btn .icon-tg-title,
   .page_wrap .im_page_wrap .im_page_split .im_dialogs_col_wrap:focus-within .tg_head_btn .icon-tg-title,
@@ -1141,11 +1145,11 @@ a.im_panel_own_photo {
   height: 100%;
 }
 .im_message_meta:before {
-  content: "\A";
+  content: " \A ";
   white-space: pre;
 }
 .im_message_meta:after {
-  content: "\A";
+  content: " \A ";
   white-space: pre;
 }
 .im_grouped_short .im_content_message_wrap,
@@ -2556,23 +2560,21 @@ a.tg_radio_on:hover i.icon-radio {
   }
 }
 
-/* my changes 
-  
-  - .tg_head_split no margin
-*/
+/* my changes */
 
 .footer_empty {
-  height: 0;
+  height: 0px !important;
 }
 
 .tg_head_main_wrap {
-  width: 83%;
+  width: 81.3% !important;
 }
 
 .tg_head_logo_wrap {
-  width: 17%;
+  width: 18.7% !important;
 }
 
-.im_dialogs_col_wrap {
-  max-width: 318px !important;
+div.im_dialogs_col_wrap {
+  max-width: 350px !important;
+  width: 350px !important;
 }
