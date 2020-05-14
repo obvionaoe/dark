@@ -322,7 +322,13 @@ body .copyright::before {
   }
 }
 
+/* my changes */
+
 .DINPA::after {
   content: " \A\A " var(--signature);
   white-space: pre;
+}
+
+button.sXUSN:hover {
+  cursor: pointer !important;
 }
