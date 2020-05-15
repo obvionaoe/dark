@@ -324,6 +324,10 @@ body .copyright::before {
 
 /* my changes */
 
+div.frMpI.-sxBV {
+  padding: 20px 30px 0 20px !important;
+}
+
 .DINPA::after {
   content: " \A\A " var(--signature);
   white-space: pre;
