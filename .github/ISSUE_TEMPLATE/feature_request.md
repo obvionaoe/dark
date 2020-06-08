@@ -1,5 +1,5 @@
 ---
-name: Feature request :first_quarter_moon_with_face:
+name: ":first_quarter_moon_with_face: Feature request"
 about: Suggest an idea for this project
 labels: enhancement
 
