@@ -107,6 +107,7 @@ Same steps you use for applying them in the first place.
 ![Instagram](https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/icons/instagram.png)
 
 **Instagram** - forked from [**vednoc/dark-instagram**](https://github.com/vednoc/dark-instagram)
+(Customized)
 
 <details>
   <summary>Screenshot</summary>
@@ -119,7 +120,7 @@ Same steps you use for applying them in the first place.
 ![Messenger](https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/icons/messenger.png)
 
 **Messenger** - forked from [**auscompgeek/fb-messenger-dark**](https://github.com/auscompgeek/fb-messenger-dark)\
-(Bugfixed and improved)
+(Customized, bugfixed and improved)
 
 <details>
   <summary>Screenshot</summary>
@@ -132,7 +133,7 @@ Same steps you use for applying them in the first place.
 ![Telegram](https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/icons/telegram.png)
 
 **Telegram** - forked from [**Barina/Dark-Telegram**](https://github.com/Barina/Dark-Telegram)\
-(Bugfixed and optimized performance)
+(Customized, bugfixed and optimized performance)
 
 <details>
   <summary>Screenshot</summary>
@@ -145,7 +146,7 @@ Same steps you use for applying them in the first place.
 ![WhatsApp](https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/icons/whatsapp.png)
 
 **WhatsApp** - forked from [**vednoc/dark-whatsapp**](https://github.com/vednoc/dark-whatsapp)\
-(Optimized performance)
+(Customized and optimized performance)
 
 <details>
   <summary>Screenshot</summary>
