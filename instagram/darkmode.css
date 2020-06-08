@@ -1,21 +1,24 @@
+
 :root:not(#z) {
-  --b6a: 51,57,67;
-  --b38: 51,57,67;
-  --ce3: 51,57,67;
-  --ca6: 51,57,67;
-  --d87: 37,42,51;
-  --f23: 37,42,51;
-  --b3f: 31,35,42;
-  --i1d: 233,233,233;
-  --f75: 233,233,233;
-  --f52: 161,161,161;
-  --bb2: 31,35,42;
-  --f23: 31,35,42;
-  --fe0: 114,137,218;
-  --d69: 114,137,218;
-  --c37: 114,137,218;
-  --jb7: 0,0,0;
-  --fa7: 37,42,51;
+  --b6a: var(--darker-rgb);
+  --b38: var(--darker-rgb);
+  --ce3: var(--darker-rgb);
+  --ca6: var(--darker-rgb);
+  --d87: var(--darken-rgb);
+  --f23: var(--darken-rgb);
+  --b3f: var(--dark-rgb);
+  --i1d: var(--light-rgb);
+  --f75: var(--light-rgb);
+  --f52: var(--lighter-rgb);
+  --bb2: var(--dark-rgb);
+  --f23: var(--dark-rgb);
+  --fe0: var(--accent-rgb);
+  --d69: var(--accent-rgb);
+  --c37: var(--accent-rgb);
+  --eca: var(--darken-rgb);
+  --jb7: var(--shadow-rgb);
+  --fa7: var(--darken-rgb);
+  --de5: var(--white-rgb);
   --signature: 'dark by obvionaoe';
   --bshadow: 0 2px 4px var(--shadow);
   --t: transparent !important;
@@ -38,9 +41,16 @@
   --blue: #268bd2;
   --cyan: #2aa198;
   --green: #859900;
+  --dark-rgb: 31,35,42;
+  --darken-rgb: 37,42,51;
+  --darker-rgb: 51,57,67;
+  --light-rgb: 233,233,233;
+  --lighter-rgb: 161,161,161;
+  --accent-rgb: 114,137,218;
+  --shadow-rgb: 0,0,0;
+  --white-rgb: 255,255,255;
   scrollbar-color: var(--accent) transparent;
 }
-
 :root ::-webkit-scrollbar {
   background-color: transparent !important;
   width: 0;
@@ -59,7 +69,6 @@ div.Igw0E.IwRSH.eGOV_._4EzTm._5VUwz.ZUqME ::-webkit-scrollbar-thumb,
 div.frMpI.-sxBV::-webkit-scrollbar-thumb {
   background-color: var(--accent) !important;
 }
-
 body {
   color: var(--light) !important;
   background-color: var(--dark) !important;
@@ -137,6 +146,7 @@ body .coreSpriteTaggedNull {
 [class *= 'SpriteCamera'],
 [class *= 'SpriteProfileChannelNullState'],
 [class *= 'SpriteLocation_'],
+[class *= 'SpriteInfo__filled__16__grey'],
 [class *= 'SpriteCircle_add'] {
   filter: invert(0.8) !important;
 }
@@ -200,10 +210,29 @@ body .jju9v {
   color: var(--light) !important;
   background-color: var(--darken) !important;
 }
+body .hI7cq {
+  color: var(--light) !important;
+}
+body ._7LpC8 a,
+body .rin8p {
+  color: var(--accent) !important;
+}
 body .rb9ad,
 body .-wdIA,
 body .d-Vzv {
   border-color: var(--darker) !important;
+}
+body .leaflet-container {
+  background-color: var(--darken) !important;
+  box-shadow: 0 1px var(--darker);
+}
+body .leaflet-tile {
+  filter: invert(0.9) hue-rotate(180deg) !important;
+}
+body .leaflet-popup-content-wrapper,
+body .leaflet-popup-tip {
+  background-color: var(--darken) !important;
+  box-shadow: 0 3px 14px var(--shadow);
 }
 body .Sux9m {
   border-color: #555 !important;
@@ -247,6 +276,9 @@ body > [role = 'presentation'] button.aOOlW:not(.SRPMb):hover,
 body > [role = 'presentation'] button.aOOlW:not(.SRPMb):active {
   background-color: var(--darken) !important;
 }
+body article > header + div .Yi5aA {
+  background-color: var(--lighter) !important;
+}
 body img + div[style = 'height: 100%;'] {
   position: unset !important;
   display: none !important;
@@ -286,6 +318,9 @@ body .uo5MA > div:nth-child(2) {
 body .uo5MA > div:nth-child(3) {
   border-radius: 0 0 6px 6px;
 }
+body .uo5MA .DPiy6 {
+  background-color: var(--t) !important;
+}
 .X3a-9 {
   background-color: var(--dark) !important;
 }
@@ -299,13 +334,17 @@ body .XjicZ {
 body .XjicZ p {
   color: var(--light) !important;
 }
+body footer nav {
+  width: 100% !important;
+  max-width: 80% !important;
+}
 body footer nav + span,
-body .copyright {
+.copyright {
   font-size: 0 !important;
   color: var(--lighter) !important;
 }
 body footer nav + span::before,
-body .copyright::before {
+.copyright::before {
   content: var(--signature) !important;
   font-size: 14px !important;
   text-transform: initial !important;
