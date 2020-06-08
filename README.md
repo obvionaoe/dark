@@ -106,7 +106,7 @@ Same steps you use for applying them in the first place.
 
 ![Instagram](https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/icons/instagram.png)
 
-**Instagram** - forked from [**vednoc/dark-instagram**](https://github.com/vednoc/dark-instagram)
+**Instagram** - forked from [**vednoc/dark-instagram**](https://github.com/vednoc/dark-instagram)\
 (Customized)
 
 <details>
