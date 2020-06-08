@@ -1,5 +1,5 @@
 ---
-name: ":first_quarter_moon_with_face: Feature request"
+name: "U+1F31B Feature request"
 about: Suggest an idea for this project
 labels: enhancement
 
