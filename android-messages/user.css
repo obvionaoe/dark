@@ -1,6 +1,17 @@
+:root{
+  --side-panel-width: 350px;
+  --content-width: 1460px;
+  --content-margin: 0px 21px auto;
+}
+
 @media (min-width: 1440px) {
   .main-nav {
-    min-width: 350px !important;
-    width: 350px !important;
+    min-width: var(--side-panel-width) !important;
+    width: var(--side-panel-width) !important;
+  }
+
+  div.content {
+    max-width: var(--content-width) !important;
+    margin: var(--content-margin) !important;
   }
 }
