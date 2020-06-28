@@ -1,38 +1,63 @@
+:root {
+  --signature: "dark by obvionaoe";
+  --github-message: "Please report any issues on GitHub so that we can fix them.";
+  --github-link: "https://github.com/obvionaoe/dark";
+  --side-panel-width: 350px;
+  --ucolor0: #000;
+  --ucolor1: #8846ec;
+  --ucolor2: #3aa537;
+  --ucolor3: #ca9229;
+  --ucolor4: #2c73b1;
+  --ucolor5: #b43830;
+  --ucolor6: #b33967;
+  --ucolor7: #3f9ec4;
+  --ucolor8: #aa6c3d;
+}
+
 .user_color_0,
 .user_color_0:hover {
   color: #000 !important;
+  filter: hue-rotate(320deg) contrast(50%);
 }
 .user_color_1,
 .user_color_1:hover {
-  color: #8846ec !important;
+  color: #534568 !important;
+  filter: hue-rotate(320deg) contrast(50%);
 }
 .user_color_2,
 .user_color_2:hover {
-  color: #3aa537 !important;
+  color: #354e34 !important;
+  filter: hue-rotate(320deg) contrast(50%);
 }
 .user_color_3,
 .user_color_3:hover {
-  color: #ca9229 !important;
+  color: #615641 !important;
+  filter: hue-rotate(320deg) contrast(50%);
 }
 .user_color_4,
 .user_color_4:hover {
-  color: #2c73b1 !important;
+  color: #3b4a57 !important;
+  filter: hue-rotate(320deg) contrast(50%);
 }
 .user_color_5,
 .user_color_5:hover {
-  color: #b43830 !important;
+  color: #614341 !important;
+  filter: hue-rotate(320deg) contrast(50%);
 }
 .user_color_6,
 .user_color_6:hover {
-  color: #b33967 !important;
+  color: #5e3f4b !important;
+  filter: hue-rotate(320deg) contrast(50%);
 }
 .user_color_7,
 .user_color_7:hover {
-  color: #3f9ec4 !important;
+  color: #3b4f57 !important;
+  filter: hue-rotate(320deg) contrast(50%);
 }
 .user_color_8,
 .user_color_8:hover {
-  color: #aa6c3d !important;
+  color: #57473b !important;
+  filter: hue-rotate(320deg) contrast(50%);
 }
 .user_bgcolor_0 {
   Background: #000 !important;
@@ -170,6 +195,7 @@ a.composer_emoji_btn:hover {
   -moz-mask-size: 100%;
 }
 .tg_head_split {
+  margin-top: 23px;
   height: 49px;
   border: 1px solid #333943 !important;
 }
@@ -293,9 +319,29 @@ div.im_message_body {
   border-top: 15px solid #3c434f;
   border-left: 10px solid transparent;
 }
+.im_message_outer_wrap:hover div .im_message_in .im_message_body:before {
+  left: 48px;
+  border-top: 15px solid #4c5564;
+  border-left: 10px solid transparent;
+}
+.im_message_selected .im_message_outer_wrap div .im_message_in .im_message_body:before {
+  left: 48px;
+  border-top: 15px solid #727e94;
+  border-left: 10px solid transparent;
+}
 .im_message_out .im_message_body:before {
   right: 64px;
   border-top: 15px solid #333a47;
+  border-right: 10px solid transparent;
+}
+.im_message_outer_wrap:hover div .im_message_out .im_message_body:before {
+  right: 64px;
+  border-top: 15px solid #434c5e;
+  border-right: 10px solid transparent;
+}
+.im_message_selected .im_message_outer_wrap div .im_message_out .im_message_body:before {
+  right: 64px;
+  border-top: 15px solid #697792;
   border-right: 10px solid transparent;
 }
 .im_grouped_short .im_message_outer_wrap .im_message_out .im_message_body:before,
@@ -365,9 +411,6 @@ a.pull-right,
   width: 0;
   height: 0;
 }
-div.im_history_col_wrap {
-  width: calc(100% - 350px) !important;
-}
 .im_history_not_selected {
   margin: auto;
   width: 70%;
@@ -376,7 +419,7 @@ div.im_history_col_wrap {
 }
 .im_history_not_selected:before {
   display: block;
-  content: "Please report any issues on GitHub so that we can fix them." " \A \A " "https://github.com/obvionaoe/dark" " \A";
+  content: "Please report any issues on GitHub." " \A " "https://github.com/Barina/Dark-Telegram" " \A";
   white-space: pre-wrap;
   border-bottom: 1px solid #333943;
   font-size: 16px;
@@ -387,8 +430,7 @@ div.im_history_col_wrap {
 }
 .im_history_not_selected:after {
   display: block;
-  font-weight: bold;
-  content: "dark by obvionaoe";
+  content: "Ported from: https://github.com/vednoc/dark-whatsapp" '\A' "Dark-Telegram v1.1.20 — June 18th, 2020";
   white-space: pre-wrap;
   border-top: 1px solid #333943;
   font-size: 11px;
@@ -424,6 +466,7 @@ body:before {
   right: -24px;
   transform: scale(-24px);
   filter: blur(12px) opacity(0.4) invert(0) hue-rotate(320deg);
+  background-image: url("https://images.unsplash.com/photo-1434569117012-ce134ee1a088?fit=crop&w=1280&h=720&q=80");
   background-size: cover;
   z-index: -1;
 }
@@ -652,13 +695,13 @@ a.md_modal_action:hover,
   div .tg_page_head .tg_head_split .tg_head_logo_wrap:hover,
   .page_wrap .im_page_wrap .im_page_split .im_dialogs_col_wrap:hover,
   .page_wrap .im_page_wrap .im_page_split .im_dialogs_col_wrap:focus-within {
-    width: 18.7% !important;
+    width: 31% !important;
   }
   .page_wrap .im_page_wrap .im_page_split .im_dialogs_col_wrap:hover .tg_head_main_wrap,
   .page_wrap .im_page_wrap .im_page_split .im_dialogs_col_wrap:focus-within .tg_head_main_wrap,
   .page_wrap .im_page_wrap .im_page_split .im_dialogs_col_wrap:hover ~ .im_history_col_wrap,
   .page_wrap .im_page_wrap .im_page_split .im_dialogs_col_wrap:focus-within ~ .im_history_col_wrap {
-    width: 81.3% !important;
+    width: 69% !important;
   }
   .page_wrap .im_page_wrap .im_page_split .im_dialogs_col_wrap:hover .tg_head_btn .icon-tg-title,
   .page_wrap .im_page_wrap .im_page_split .im_dialogs_col_wrap:focus-within .tg_head_btn .icon-tg-title,
@@ -667,7 +710,7 @@ a.md_modal_action:hover,
     opacity: 1 !important;
   }
   .page_wrap div[my-head=""] .tg_page_head .tg_head_split .tg_head_logo_wrap:hover {
-    width: 17% !important;
+    width: 31% !important;
   }
   .page_wrap div[my-head=""] .tg_page_head .tg_head_split .tg_head_logo_wrap:hover,
   .page_wrap div[my-head=""] .tg_page_head .tg_head_split .tg_head_logo_wrap:hover .tg_head_btn .icon-tg-title,
@@ -677,7 +720,7 @@ a.md_modal_action:hover,
     opacity: 1 !important;
   }
   .page_wrap div[my-head=""] .tg_page_head .tg_head_split .tg_head_logo_wrap:hover ~ .tg_head_main_wrap {
-    width: 83% !important;
+    width: 69% !important;
   }
 }
 code {
@@ -783,8 +826,21 @@ fieldset[disabled] .btn-primary:hover {
 .im_message_focus .im_message_outer_wrap {
   background-color: #252a33;
 }
-.im_message_selected .im_message_outer_wrap {
-  Background: rgba(41,47,56,0.5);
+.im_message_outer_wrap,
+.im_message_outer_wrap:hover {
+  Background: none !important;
+}
+.im_message_selected .im_message_outer_wrap div .im_message_in .im_message_body {
+  Background: #727e94 !important;
+}
+.im_message_outer_wrap:hover div .im_message_in .im_message_body {
+  Background: #4c5564;
+}
+.im_message_selected .im_message_outer_wrap div .im_message_out .im_message_body {
+  Background: #697792 !important;
+}
+.im_message_outer_wrap:hover div .im_message_out .im_message_body {
+  Background: #434c5e;
 }
 a.im_dialog:hover,
 .dropdown-menu a:hover {
@@ -1145,11 +1201,11 @@ a.im_panel_own_photo {
   height: 100%;
 }
 .im_message_meta:before {
-  content: " \A ";
+  content: "\A";
   white-space: pre;
 }
 .im_message_meta:after {
-  content: " \A ";
+  content: "\A";
   white-space: pre;
 }
 .im_grouped_short .im_content_message_wrap,
@@ -2562,19 +2618,97 @@ a.tg_radio_on:hover i.icon-radio {
 
 /* my changes */
 
-.footer_empty {
+.user_color_0,
+.user_color_0:hover {
+  color: var(--ucolor0) !important;
+}
+
+.user_color_1,
+.user_color_1:hover {
+  color: var(--ucolor1) !important;
+}
+
+.user_color_2,
+.user_color_2:hover {
+  color: var(--ucolor2) !important;
+}
+
+.user_color_3,
+.user_color_3:hover {
+  color: var(--ucolor3) !important;
+}
+
+.user_color_4,
+.user_color_4:hover {
+  color: var(--ucolor4) !important;
+}
+
+.user_color_5,
+.user_color_5:hover {
+  color: var(--ucolor5) !important;
+}
+
+.user_color_6,
+.user_color_6:hover {
+  color: var(--ucolor6) !important;
+}
+
+.user_color_7,
+.user_color_7:hover {
+  color: var(--ucolor7) !important;
+}
+
+.user_color_8,
+.user_color_8:hover {
+  color: var(--ucolor8) !important;
+}
+
+.im_history_not_selected:before {
+  display: block;
+  content: var(--github-message) " \A \A " var(--github-link) " \A";
+  white-space: pre-wrap;
+  border-bottom: 1px solid #333943;
+  font-size: 16px;
+  margin-bottom: 16px;
+  padding: 16px 20%;
+  color: #ccccca;
+  user-select: auto !important;
+}
+
+.im_history_not_selected:after {
+  display: block;
+  font-weight: bold;
+  content: var(--signature);
+  white-space: pre-wrap;
+  border-top: 1px solid #333943;
+  font-size: 11px;
+  margin-top: 16px;
+  padding-top: 16px;
+  color: #676764;
+  user-select: auto !important;
+}
+
+div.footer_empty {
   height: 0px !important;
 }
 
-.tg_head_main_wrap {
+div.tg_head_main_wrap {
   width: 81.3% !important;
 }
 
-.tg_head_logo_wrap {
+div.tg_head_logo_wrap {
   width: 18.7% !important;
 }
 
+div.tg_head_split {
+  margin-top: 0 !important;
+}
+
 div.im_dialogs_col_wrap {
-  max-width: 350px !important;
-  width: 350px !important;
+  max-width: var(--side-panel-width) !important;
+  width: var(--side-panel-width) !important;
+}
+
+div.im_history_col_wrap {
+  width: calc(100% - var(--side-panel-width)) !important;
 }
