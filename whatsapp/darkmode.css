@@ -1,7 +1,7 @@
 
 :root:not(#z),
 .dark:not(#z) {
-  --message: "dark by obvionaoe";
+  --signature: "dark by obvionaoe";
   --changes: "https://github.com/obvionaoe/dark";
   --ui-font: 'font_name', Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif !important;
   --r-menus: 4px;
@@ -1320,6 +1320,31 @@ span[class][data-icon = 'checkbox-round-checked'] [fill = '#FFF'] {
 }
 
 /* my changes */
+
+.landing-header::after {
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  content: '🌛 ' var(--signature) !important;
+}
+html > body [data-asset-intro-image-light] + div h1 + div[class]::before {
+  display: block;
+  font-size: 16px;
+  margin-bottom: -16px;
+  white-space: pre-wrap;
+  content: var(--changes);
+}
+html > body [data-asset-intro-image-light] + div h1 + div[class]::after {
+  display: block;
+  font-size: 16px;
+  margin-top: 16px;
+  padding-top: 24px;
+  margin-bottom: -16px;
+  font-weight: bold;
+  content: '🌛 ' var(--signature) !important;
+  border-top: 1px solid #3b4250;
+}
+
 @media (min-width: 1441px) {
   /* ... */
   #app > div > [tabindex],
