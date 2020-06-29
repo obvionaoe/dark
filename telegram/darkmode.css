@@ -2678,7 +2678,7 @@ a.tg_radio_on:hover i.icon-radio {
 .im_history_not_selected:after {
   display: block;
   font-weight: bold;
-  content: var(--signature);
+  content: '🌛 ' var(--signature) !important;
   white-space: pre-wrap;
   border-top: 1px solid #333943;
   font-size: 11px;
@@ -2711,4 +2711,18 @@ div.im_dialogs_col_wrap {
 
 div.im_history_col_wrap {
   width: calc(100% - var(--side-panel-width)) !important;
+}
+
+body:before {
+  content: '';
+  position: absolute;
+  left: -24px;
+  top: -24px;
+  bottom: -24px;
+  right: -24px;
+  transform: scale(-24px);
+  filter: blur(12px) opacity(0.4) invert(0) hue-rotate(320deg);
+  background-image: none;
+  background-size: cover;
+  z-index: -1;
 }
