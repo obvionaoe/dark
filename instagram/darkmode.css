@@ -1,4 +1,3 @@
-
 :root:not(#z) {
   --b6a: var(--darker-rgb);
   --b38: var(--darker-rgb);
@@ -10,7 +9,7 @@
   --i1d: var(--light-rgb);
   --f75: var(--light-rgb);
   --f52: var(--lighter-rgb);
-  --bb2: var(--dark-rgb);
+  --bb2: var(--darken-rgb);
   --f23: var(--dark-rgb);
   --fe0: var(--accent-rgb);
   --d69: var(--accent-rgb);
@@ -19,7 +18,7 @@
   --jb7: var(--shadow-rgb);
   --fa7: var(--darken-rgb);
   --de5: var(--white-rgb);
-  --signature: 'dark by obvionaoe';
+  --note: 'Dark-Instagram Lite v2.4.1';
   --bshadow: 0 2px 4px var(--shadow);
   --t: transparent !important;
   --avatar: a_radius;
@@ -49,24 +48,22 @@
   --accent-rgb: 114,137,218;
   --shadow-rgb: 0,0,0;
   --white-rgb: 255,255,255;
+  --signature: 'dark by obvionaoe';
   scrollbar-color: var(--accent) transparent;
 }
-:root ::-webkit-scrollbar {
-  background-color: transparent !important;
-  width: 0;
+::-webkit-scrollbar {
+  width: 0.5em;
 }
-:root ::-webkit-scrollbar-thumb {
-  background-color: var(--accent) !important;
+* {
+  scrollbar-width: thin;
 }
-div.Igw0E.IwRSH.eGOV_._4EzTm._5VUwz.ZUqME ::-webkit-scrollbar,
-div.N9abW::-webkit-scrollbar,
-div.frMpI.-sxBV::-webkit-scrollbar {
-  background-color: transparent !important;
-  width: .5em;
+html {
+  scrollbar-color: var(--accent) rgba(136,136,136,0.082);
 }
-div.N9abW::-webkit-scrollbar-thumb,
-div.Igw0E.IwRSH.eGOV_._4EzTm._5VUwz.ZUqME ::-webkit-scrollbar-thumb,
-div.frMpI.-sxBV::-webkit-scrollbar-thumb {
+::-webkit-scrollbar {
+  background-color: rgba(136,136,136,0.082) !important;
+}
+::-webkit-scrollbar-thumb {
   background-color: var(--accent) !important;
 }
 body {
@@ -163,14 +160,18 @@ body nav a[href = '/'] img,
 body .HZ802,
 body .nHGTw {
   color: var(--white) !important;
-  background-color: var(--red) !important;
+  background-color: var(--accent) !important;
 }
 body .HZ802 .H9zXO::after,
 body .nHGTw .H9zXO::after {
-  background-color: var(--red) !important;
+  background-color: var(--accent) !important;
 }
 .iMofo {
   box-shadow: 0 4px 16px var(--shadow) !important;
+}
+body .HZ802 [class *= 'Sprite'] + div > div,
+body .nHGTw [class *= 'Sprite'] + div > div {
+  color: var(--white) !important;
 }
 body > [role = 'presentation'],
 body > [role = 'dialog'] {
@@ -345,7 +346,7 @@ body footer nav + span,
 }
 body footer nav + span::before,
 .copyright::before {
-  content: var(--signature) !important;
+  content: '🌚 ' var(--note) !important;
   font-size: 14px !important;
   text-transform: initial !important;
 }
@@ -363,13 +364,39 @@ body footer nav + span::before,
 
 /* my changes */
 
+:root ::-webkit-scrollbar {
+  background-color: transparent !important;
+  width: 0 !important;
+}
+:root ::-webkit-scrollbar-thumb {
+  background-color: var(--accent) !important;
+}
+div.Igw0E.IwRSH.eGOV_._4EzTm._5VUwz.ZUqME ::-webkit-scrollbar,
+div.N9abW::-webkit-scrollbar,
+div.frMpI.-sxBV::-webkit-scrollbar {
+  background-color: transparent !important;
+  width: .5em !important;
+}
+div.N9abW::-webkit-scrollbar-thumb,
+div.Igw0E.IwRSH.eGOV_._4EzTm._5VUwz.ZUqME ::-webkit-scrollbar-thumb,
+div.frMpI.-sxBV::-webkit-scrollbar-thumb {
+  background-color: var(--accent) !important;
+}
+
 div.frMpI.-sxBV {
   padding: 20px 30px 0 20px !important;
 }
 
 .DINPA::after {
-  content: " \A\A " var(--signature);
-  white-space: pre;
+  content: " \A\A " var(--signature) !important;
+  white-space: pre !important;
+}
+
+body footer nav + span::before,
+.copyright::before {
+  content: '🌛 ' var(--signature) !important;
+  font-size: 14px !important;
+  text-transform: initial !important;
 }
 
 button.sXUSN:hover {
