@@ -388,7 +388,7 @@ div.frMpI.-sxBV {
 }
 
 .DINPA::after {
-  content: " \A\A " var(--signature) !important;
+  content: " \A\A " '🌛 ' var(--signature) !important;
   white-space: pre !important;
 }
 
