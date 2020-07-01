@@ -1,0 +1,179 @@
+#+STARTUP: nofold
+#+HTML: <div align="center">
+
+#+HTML: <img src="https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/icon.png" width="198"/>
+
+* dark
+*This repository is a collection of dark themes for Rambox, Franz or Ferdi that I use in some messaging services.*
+
+[[https://discord.gg/w49c9Kq][https://img.shields.io/discord/694759343559540757.svg?longCache=true&colorB=7289da&logo=discord&style=flat]]
+
+
+#+HTML: </div>
+
+** Applying the themes
+
+*** Rambox
+
+*Disclaimer*: I no longer use Rambox but I left this here for everyone who still uses it!
+
+#+HTML: <details>
+
+#+HTML: <summary>Click to expand!</summary>
+  
+First, find the service you wish to apply the theme to
+
+#+HTML: <img src="https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/tutorial/find.png"/>
+
+go into the settings for that service
+
+#+HTML: <img src="https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/tutorial/configure.png"/>
+
+once you're there, click on "Advanced".
+
+#+HTML: <img src="https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/tutorial/advanced.png"/>
+
+A text-box will appear, copy the JavaScript code from [[./rambox/function.js][function.js]] into it, then copy the CSS code for the service you want to theme into the `[paste css here]` area - **don't remove the backticks** - and save your changes!
+
+#+HTML: <img src="https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/tutorial/paste.gif"/>
+
+Then press "Yes" on the service restart popup
+
+#+HTML: <img src="https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/tutorial/save.png"/>
+
+and that's it, all done and ready to use!
+
+#+HTML: </details>
+
+*** Ferdi/Franz
+
+#+HTML: <details>
+
+#+HTML: <summary>If you have Git</summary>
+
+Choose a folder where you want to store the themes and run the following commands:
+
+#+HTML: <details>
+#+HTML: <summary>Linux/MacOS</summary>
+
+#+BEGIN_SRC bash
+$ git clone https://github.com/obvionaoe/dark.git
+$ cd dark
+$ ln -s /path/to/cloned/directory/[service]/darkmode.css ~/.config/Ferdi/recipes/[service]/darkmode.css
+#+END_SRC
+
+Replace ~[service]~ by the name of the service you want to theme.\\
+~/path/to/cloned/directory/~ *must be an absolute path*.
+
+#+HTML: </details>
+  
+#+HTML: <details>
+
+#+HTML: <summary>Windows</summary>
+
+#+BEGIN_SRC cmd
+    $ git clone https://github.com/obvionaoe/dark.git
+    $ cd dark
+    $ mklink %AppData%\Franz\recipes\[service]]\darkmode.css [service]\darkmode.css
+#+END_SRC
+
+Replace ~[service]~ by the name of the service you want to theme.
+
+#+HTML: </details>
+
+To apply the themes, just turn on dark mode inside the service settings.
+
+#+HTML: </details>
+
+#+HTML: <details>
+
+#+HTML: <summary>If you don't have Git</summary>
+  
+Just copy the ~[service]/darkmode.css~ file, with ~[service]~ being the name of the service you want to update, into the recipe folder of that service.
+
+To apply the themes, just turn on dark mode inside the service settings.
+  
+#+HTML: </details>
+
+** Updating the themes
+
+*** Rambox
+
+Same steps you use for applying them in the first place.
+
+*** Ferdi/Franz
+
+#+HTML: <details>
+#+HTML: <summary>If you have Git</summary>
+  
+Just run ~git pull origin master~ in the repo folder you cloned and reload the services inside Ferdi, Franz or Rambox.
+
+#+HTML: </details>
+
+#+HTML: <details>
+#+HTML: <summary>If you don't have Git</summary>
+  
+Just copy the ~[service]/darkmode.css~ file, with ~[service]~ being the name of the service you want to update, into the recipe folder of that service!
+
+#+HTML: </details>
+
+** Themes
+
+#+HTML: <div>
+#+HTML: <img src="https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/icons/instagram.png"/>
+
+*Instagram* - forked from [[https://github.com/vednoc/dark-instagram][*vednoc/dark-instagram*]]\\
+(Customized)
+
+#+HTML: <details>
+#+HTML: <summary>Screenshot</summary>
+  
+#+HTML: <img src="https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/screenshots/instagram.png"/>
+
+#+HTML: </details>
+#+HTML: </div>
+
+#+HTML: <div>
+#+HTML: <img src="https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/icons/messenger.png"/>
+
+*Messenger* - forked from [[https://github.com/auscompgeek/fb-messenger-dark][*auscompgeek/fb-messenger-dark*]]\\
+(Customized, bugfixed and improved)
+
+#+HTML: <details>
+#+HTML: <summary>Screenshot</summary>
+  
+#+HTML: <img src="https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/screenshots/messenger.png"/>
+
+#+HTML: </details>
+#+HTML: </div>
+
+#+HTML: <div>
+#+HTML: <img src="https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/icons/telegram.png"/>
+
+*Telegram* - forked from [[https://github.com/Barina/Dark-Telegram][*Barina/Dark-Telegram*]]\\
+(Customized, bugfixed and optimized performance)
+
+#+HTML: <details>
+#+HTML: <summary>Screenshot</summary>
+  
+#+HTML: <img src="https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/screenshots/telegram.png"/>
+
+#+HTML: </details>
+#+HTML: </div>
+
+#+HTML: <div>
+#+HTML: <img src="https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/icons/whatsapp.png"/>
+
+*WhatsApp* - forked from [[https://github.com/vednoc/dark-whatsapp][**vednoc/dark-whatsapp**]]\\
+(Customized and optimized performance)
+
+#+HTML: <details>
+#+HTML: <summary>Screenshot</summary>
+  
+#+HTML: <img src="https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/screenshots/wa.png"/>
+
+#+HTML: </details>
+#+HTML: </div>
+
+** License
+Code released under the [[https://github.com/obvionaoe/dark/blob/master/LICENSE][MIT]] license.
