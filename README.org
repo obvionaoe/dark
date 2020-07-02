@@ -176,4 +176,4 @@ Just copy the ~[service]/darkmode.css~ file, with ~[service]~ being the name of 
 #+HTML: </div>
 
 ** License
-Code released under the [[https://github.com/obvionaoe/dark/blob/master/LICENSE][MIT]] license.
+Code released under the [[https://github.com/obvionaoe/dark/blob/master/LICENSE][GPL-3.0]] license.
