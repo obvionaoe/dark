@@ -59,11 +59,10 @@ Choose a folder where you want to store the themes and run the following command
 #+BEGIN_SRC bash
 $ git clone https://github.com/obvionaoe/dark.git
 $ cd dark
-$ ln -s /path/to/cloned/directory/[service]/darkmode.css ~/.config/Ferdi/recipes/[service]/darkmode.css
+$ sh install.sh [service]
 #+END_SRC
 
-Replace ~[service]~ by the name of the service you want to theme.\\
-~/path/to/cloned/directory/~ *must be an absolute path*.
+Replace ~[service]~ by the name of the service you want to theme or by ~all~ to install all of the dark themes.
 
 #+HTML: </details>
   
@@ -74,10 +73,10 @@ Replace ~[service]~ by the name of the service you want to theme.\\
 #+BEGIN_SRC cmd
     $ git clone https://github.com/obvionaoe/dark.git
     $ cd dark
-    $ mklink %AppData%\Franz\recipes\[service]]\darkmode.css [service]\darkmode.css
+    $ install.bat [service]
 #+END_SRC
 
-Replace ~[service]~ by the name of the service you want to theme.
+Replace ~[service]~ by the name of the service you want to theme or by ~all~ to install all of the dark themes.
 
 #+HTML: </details>
 
