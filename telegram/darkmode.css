@@ -2681,7 +2681,7 @@ a.tg_radio_on:hover i.icon-radio {
   content: '🌛 ' var(--signature) !important;
   white-space: pre-wrap;
   border-top: 1px solid #333943;
-  font-size: 11px;
+  font-size: 14px;
   margin-top: 16px;
   padding-top: 16px;
   color: #676764;
