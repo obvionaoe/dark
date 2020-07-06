@@ -4,7 +4,9 @@
 #+HTML: <img src="https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/icon.png" width="198"/>
 
 * dark
-*This repository is a collection of dark themes for Rambox, Franz or Ferdi that I use in some messaging services.*
+*Don't burn your eyes!*
+
+This repository is a collection of dark themes for Rambox, Franz or Ferdi that I use in some messaging services.
 
 [[https://discord.gg/w49c9Kq][https://img.shields.io/discord/694759343559540757.svg?longCache=true&colorB=7289da&logo=discord&style=flat]]
 
