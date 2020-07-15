@@ -220,6 +220,13 @@ a.composer_emoji_btn:hover {
 .composer_dropdown_wrap>div>div>div>div>div>div>ul>li>a:hover {
   background-color: #292f38 !important;
 }
+.im_page_split {
+  background-color: #1f232a;
+}
+.im_dialog_wrap a.im_dialog,
+.im_dialogs_panel {
+  background-color: #252a33;
+}
 .im_history_wrap {
   background-color: #1f232a !important;
 }
@@ -303,27 +310,27 @@ div.im_message_body {
   border-top: 15px solid #3c434f;
   border-left: 10px solid transparent;
 }
-.im_message_outer_wrap:hover div .im_message_in .im_message_body:before {
-  left: 48px;
-  border-top: 15px solid #4c5564;
-  border-left: 10px solid transparent;
-}
-.im_message_selected .im_message_outer_wrap div .im_message_in .im_message_body:before {
-  left: 48px;
-  border-top: 15px solid #727e94;
-  border-left: 10px solid transparent;
-}
 .im_message_out .im_message_body:before {
   right: 64px;
   border-top: 15px solid #333a47;
   border-right: 10px solid transparent;
 }
-.im_message_outer_wrap:hover div .im_message_out .im_message_body:before {
+.im_history_select_active .im_history_messages .im_history_messages_peer .im_message_outer_wrap:hover div .im_message_in .im_message_body:before {
+  left: 48px;
+  border-top: 15px solid #4c5564;
+  border-left: 10px solid transparent;
+}
+.im_history_select_active .im_history_messages .im_history_messages_peer .im_message_selected .im_message_outer_wrap div .im_message_in .im_message_body:before {
+  left: 48px;
+  border-top: 15px solid #727e94;
+  border-left: 10px solid transparent;
+}
+.im_history_select_active .im_history_messages .im_history_messages_peer .im_message_outer_wrap:hover div .im_message_out .im_message_body:before {
   right: 64px;
   border-top: 15px solid #434c5e;
   border-right: 10px solid transparent;
 }
-.im_message_selected .im_message_outer_wrap div .im_message_out .im_message_body:before {
+.im_history_select_active .im_history_messages .im_history_messages_peer .im_message_selected .im_message_outer_wrap div .im_message_out .im_message_body:before {
   right: 64px;
   border-top: 15px solid #697792;
   border-right: 10px solid transparent;
@@ -414,7 +421,7 @@ a.pull-right,
 }
 .im_history_not_selected:after {
   display: block;
-  content: "Ported from: https://github.com/vednoc/dark-whatsapp" '\A' "Dark-Telegram v1.1.20 — June 18th, 2020";
+  content: "Ported from: https://github.com/vednoc/dark-whatsapp" '\A' "Dark-Telegram v1.1.21 — July 12th, 2020";
   white-space: pre-wrap;
   border-top: 1px solid #333943;
   font-size: 11px;
@@ -613,10 +620,6 @@ a.md_modal_action:hover,
   transition: 0.1s;
   background-color: none;
 }
-.tg_head_logo_wrap,
-.tg_head_logo_wrap:hover {
-  border-right: 1px solid #333943;
-}
 .form-control,
 .form-control:focus,
 .im_dialogs_modal_col_wrap .im_dialogs_search_field {
@@ -661,6 +664,10 @@ a.md_modal_action:hover,
   .tg_head_btn .icon-tg-title {
     opacity: 0;
   }
+  .page_wrap .im_page_wrap .im_page_split .im_dialogs_col_wrap:hover,
+  .page_wrap .im_page_wrap .im_page_split .im_dialogs_col_wrap:focus-within {
+    width: 31% !important;
+  }
   .page_wrap .im_page_wrap .im_page_split .im_dialogs_col_wrap:hover .tg_head_logo_wrap,
   .page_wrap .im_page_wrap .im_page_split .im_dialogs_col_wrap:focus-within .tg_head_logo_wrap,
   .page_wrap .im_page_wrap .im_page_split .im_dialogs_col_wrap:hover .tg_head_main_wrap,
@@ -676,11 +683,6 @@ a.md_modal_action:hover,
     transition: 0.7s ease !important;
     transition-delay: 0.25s !important;
   }
-  div .tg_page_head .tg_head_split .tg_head_logo_wrap:hover,
-  .page_wrap .im_page_wrap .im_page_split .im_dialogs_col_wrap:hover,
-  .page_wrap .im_page_wrap .im_page_split .im_dialogs_col_wrap:focus-within {
-    width: 31% !important;
-  }
   .page_wrap .im_page_wrap .im_page_split .im_dialogs_col_wrap:hover .tg_head_main_wrap,
   .page_wrap .im_page_wrap .im_page_split .im_dialogs_col_wrap:focus-within .tg_head_main_wrap,
   .page_wrap .im_page_wrap .im_page_split .im_dialogs_col_wrap:hover ~ .im_history_col_wrap,
@@ -692,19 +694,6 @@ a.md_modal_action:hover,
   .page_wrap .im_page_wrap .im_page_split .im_dialogs_col_wrap:hover .im_dialogs_col .im_dialogs_wrap .im_dialogs_scrollable_wrap .nav .im_dialog_wrap .im_dialog .im_dialog_meta,
   .page_wrap .im_page_wrap .im_page_split .im_dialogs_col_wrap:focus-within .im_dialogs_col .im_dialogs_wrap .im_dialogs_scrollable_wrap .nav .im_dialog_wrap .im_dialog .im_dialog_meta {
     opacity: 1 !important;
-  }
-  .page_wrap div[my-head=""] .tg_page_head .tg_head_split .tg_head_logo_wrap:hover {
-    width: 31% !important;
-  }
-  .page_wrap div[my-head=""] .tg_page_head .tg_head_split .tg_head_logo_wrap:hover,
-  .page_wrap div[my-head=""] .tg_page_head .tg_head_split .tg_head_logo_wrap:hover .tg_head_btn .icon-tg-title,
-  .page_wrap div[my-head=""] .tg_page_head .tg_head_split .tg_head_logo_wrap:hover ~ .tg_head_main_wrap {
-    transition: 0.7s ease !important;
-    transition-delay: 0.25s !important;
-    opacity: 1 !important;
-  }
-  .page_wrap div[my-head=""] .tg_page_head .tg_head_split .tg_head_logo_wrap:hover ~ .tg_head_main_wrap {
-    width: 69% !important;
   }
 }
 code {
@@ -814,21 +803,24 @@ fieldset[disabled] .btn-primary:hover {
 .im_message_outer_wrap:hover {
   Background: none !important;
 }
-.im_message_selected .im_message_outer_wrap div .im_message_in .im_message_body {
+.im_history_select_active .im_history_messages .im_history_messages_peer .im_message_selected .im_message_outer_wrap div .im_message_in .im_message_body {
   Background: #727e94 !important;
 }
-.im_message_outer_wrap:hover div .im_message_in .im_message_body {
+.im_history_select_active .im_history_messages .im_history_messages_peer .im_message_outer_wrap:hover div .im_message_in .im_message_body {
   Background: #4c5564;
 }
-.im_message_selected .im_message_outer_wrap div .im_message_out .im_message_body {
+.im_history_select_active .im_history_messages .im_history_messages_peer .im_message_selected .im_message_outer_wrap div .im_message_out .im_message_body {
   Background: #697792 !important;
 }
-.im_message_outer_wrap:hover div .im_message_out .im_message_body {
+.im_history_select_active .im_history_messages .im_history_messages_peer .im_message_outer_wrap:hover div .im_message_out .im_message_body {
   Background: #434c5e;
 }
 a.im_dialog:hover,
 .dropdown-menu a:hover {
   background-color: #292f38 !important;
+}
+.dropdown-menu {
+  z-index: 5 !important;
 }
 .im_dialog_wrap.active {
   padding-left: 4px;
