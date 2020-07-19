@@ -1,11 +1,16 @@
-#!/bin/sh
+#!/bin/bash
 
-if [ $1 == "all" ]
+app=${1,,}
+app=${app^}
+
+service=${2,,}
+
+if [ $service == "all" ]
 then
-  ln -s "$PWD/instagram/darkmode.css" "$HOME/.config/Ferdi/recipes/instagram/darkmode.css" && echo -e "Installed Instagram theme successfully \xE2\x9C\x85\x00"
-  ln -s "$PWD/messenger/darkmode.css" "$HOME/.config/Ferdi/recipes/messenger/darkmode.css" && echo -e "Installed Messenger theme successfully \xE2\x9C\x85\x00"
-  ln -s "$PWD/telegram/darkmode.css" "$HOME/.config/Ferdi/recipes/telegram/darkmode.css" && echo -e "Installed Telegram theme successfully \xE2\x9C\x85\x00"
-  ln -s "$PWD/whatsapp/darkmode.css" "$HOME/.config/Ferdi/recipes/whatsapp/darkmode.css" && echo -e "Installed WhatsApp theme successfully \xE2\x9C\x85\x00"
+  ln -s "$PWD/instagram/darkmode.css" "$HOME/.config/$app/recipes/instagram/darkmode.css" && echo -e "Installed Instagram theme successfully \xE2\x9C\x85\x00"
+  ln -s "$PWD/messenger/darkmode.css" "$HOME/.config/$app/recipes/messenger/darkmode.css" && echo -e "Installed Messenger theme successfully \xE2\x9C\x85\x00"
+  ln -s "$PWD/telegram/darkmode.css" "$HOME/.config/$app/recipes/telegram/darkmode.css" && echo -e "Installed Telegram theme successfully \xE2\x9C\x85\x00"
+  ln -s "$PWD/whatsapp/darkmode.css" "$HOME/.config/$app/recipes/whatsapp/darkmode.css" && echo -e "Installed WhatsApp theme successfully \xE2\x9C\x85\x00"
 else
-  ln -s "$PWD/$1/darkmode.css" "$HOME/.config/Ferdi/recipes/$1/darkmode.css" && echo -e "Installed $1 theme successfully \xE2\x9C\x85\x00"
+  ln -s "$PWD/$service/darkmode.css" "$HOME/.config/$app/recipes/$service/darkmode.css" && echo -e "Installed $service theme successfully \xE2\x9C\x85\x00"
 fi

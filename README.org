@@ -61,10 +61,10 @@ Choose a folder where you want to store the themes and run the following command
 #+BEGIN_SRC bash
 $ git clone https://github.com/obvionaoe/dark.git
 $ cd dark
-$ sh install.sh [service]
+$ sh install.sh [app] [service]
 #+END_SRC
 
-Replace ~[service]~ by the name of the service you want to theme or by ~all~ to install all of the dark themes.
+Replace ~[app]~ by the application you're using (either Franz or Ferdi) and ~[service]~ by the name of the service you want to theme or by ~all~ to install all of the dark themes.
 
 #+HTML: </details>
   
@@ -75,10 +75,10 @@ Replace ~[service]~ by the name of the service you want to theme or by ~all~ to 
 #+BEGIN_SRC cmd
     $ git clone https://github.com/obvionaoe/dark.git
     $ cd dark
-    $ install.bat [service]
+    $ install.bat [app] [service]
 #+END_SRC
 
-Replace ~[service]~ by the name of the service you want to theme or by ~all~ to install all of the dark themes.
+Replace ~[app]~ by the application you're using (either Franz or Ferdi) and ~[service]~ by the name of the service you want to theme or by ~all~ to install all of the dark themes.
 
 #+HTML: </details>
 
@@ -177,4 +177,4 @@ Just copy the ~[service]/darkmode.css~ file, with ~[service]~ being the name of 
 #+HTML: </div>
 
 ** License
-Code released under the [[https://github.com/obvionaoe/dark/blob/master/LICENSE][GPL-3.0]] license.
+Released under the [[https://github.com/obvionaoe/dark/blob/master/LICENSE][GPL-3.0]] license.
