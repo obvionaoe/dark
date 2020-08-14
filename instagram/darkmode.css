@@ -1,5 +1,5 @@
   :root:not(#z) {
-    --note: 'Dark-Instagram Lite v2.5.0';
+    --note: 'Dark-Instagram Lite v2.5.1';
     --bshadow: 0 2px 4px var(--shadow);
     --t: transparent !important;
     --avatar: a_radius;
@@ -282,7 +282,7 @@
   body > [role = 'presentation'] button.aOOlW:not(.SRPMb):active {
     background-color: var(--darken) !important;
   }
-  body article > header + div .WXPwG .Yi5aA {
+  body article > header ~ div .WXPwG .Yi5aA {
     background-color: var(--white) !important;
   }
   body img + div[style = 'height: 100%;'] {
@@ -327,11 +327,17 @@
   body .uo5MA .DPiy6 {
     background-color: var(--t) !important;
   }
+  body .QOqBd {
+    background-color: var(--darker) !important;
+  }
   .X3a-9 {
     background-color: var(--dark) !important;
   }
   body .CMoMH:not(._6FEQj) {
-    background-color: rgba(0,0,0,0.063) !important;
+    background-color: var(--dark) !important;
+  }
+  body .CMoMH._6FEQj {
+    background-color: var(--darker) !important;
   }
   body .XjicZ {
     border-top: 1px solid var(--darker);
