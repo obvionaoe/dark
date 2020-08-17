@@ -421,7 +421,7 @@ a.pull-right,
 }
 .im_history_not_selected:after {
   display: block;
-  content: "Ported from: https://github.com/vednoc/dark-whatsapp" '\A' "Dark-Telegram v1.1.21 — July 12th, 2020";
+  content: "Ported from: https://github.com/vednoc/dark-whatsapp" '\A' "Dark-Telegram v1.1.22 — August 15th, 2020";
   white-space: pre-wrap;
   border-top: 1px solid #333943;
   font-size: 11px;
@@ -983,6 +983,10 @@ a.im_dialog:hover,
   border-radius: 3px !important;
   min-height: 42px;
   scrollbar-width: none;
+}
+.im_message_text,
+.composer_rich_textarea {
+  overflow-wrap: anywhere !important;
 }
 .im_send_dropbox_wrap {
   padding: 10px;
