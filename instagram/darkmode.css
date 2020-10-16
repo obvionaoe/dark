@@ -1,5 +1,5 @@
   :root:not(#z) {
-    --note: 'Dark-Instagram Lite v2.5.1';
+    --note: 'Dark-Instagram Lite v2.8.0';
     --bshadow: 0 2px 4px var(--shadow);
     --t: transparent !important;
     --avatar: a_radius;
@@ -134,6 +134,7 @@
   [class *= 'SpriteMail'],
   [class *= 'SpriteApp'],
   [class *= 'Spritez'],
+  [class *= 'SpriteKeyhole'],
   [class *= 'SpriteFriend_'],
   [class *= 'SpriteAdd_friend_'],
   [class *= 'SpriteDropdownArrowGrey'],
@@ -212,6 +213,9 @@
   body .hI7cq {
     color: var(--light) !important;
   }
+  body .isgrP > ul {
+    background-color: var(--t) !important;
+  }
   body ._7LpC8 a,
   body .rin8p {
     color: var(--accent) !important;
@@ -234,8 +238,8 @@
     box-shadow: 0 3px 14px var(--shadow);
   }
   body .Sux9m {
-    border-color: #555 !important;
-    background-color: #111 !important;
+    background-color: rgba(238,238,238,0.133) !important;
+    --eca: var(--light-rgb);
   }
   body .Sux9m ::placeholder {
     color: #eee !important;
@@ -243,15 +247,20 @@
   body .Sux9m ::-webkit-input-placeholder {
     color: #eee !important;
   }
-  body .Sux9m + div [class *= 'SpriteDirect'] {
-    filter: invert(0.6) !important;
-  }
-  ._2WZC0 canvas {
-    filter: invert(1) !important;
-  }
   body .tCibT {
     border: 1px solid var(--darker) !important;
     box-shadow: var(--bshadow) !important;
+  }
+  .R8iOs {
+    border: 1px solid var(--darker) !important;
+    color: var(--light) !important;
+    background-color: var(--dark) !important;
+  }
+  .R8iOs > * {
+    color: inherit;
+  }
+  [role='button'] + span[class=''] > div[class] {
+    background-color: var(--darker) !important;
   }
   body header + div + div.GZkEI li[style] > div > div > [role],
   body article + div + div.GZkEI li[style] > div > div > [role] {
@@ -346,14 +355,27 @@
   body .XjicZ p {
     color: var(--light) !important;
   }
+  body footer {
+    width: 100% !important;
+    margin: 0 auto;
+    margin-top: 2rem !important;
+    max-width: 935px !important;
+    border-top: 1px solid var(--darker) !important;
+  }
+  body footer > div {
+    padding: 2rem 0 3rem !important;
+  }
   body footer nav {
     width: 100% !important;
-    max-width: 80% !important;
+    display: flex;
+    text-align: center;
   }
   body footer nav + span,
   .copyright {
+    margin: 3rem auto 0;
+    display: block;
     font-size: 0 !important;
-    color: var(--lighter) !important;
+    color: var(--light) !important;
   }
   body footer nav + span::before,
   .copyright::before {
