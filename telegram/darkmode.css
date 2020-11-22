@@ -443,7 +443,7 @@ a.pull-right,
 }
 .im_history_not_selected:after {
   display: block;
-  content: "Ported from: https://github.com/vednoc/dark-whatsapp" '\A' "Dark-Telegram v1.5.33 -- October 9th, 2020";
+  content: "Ported from: https://github.com/vednoc/dark-whatsapp" '\A' "Dark-Telegram v1.6.36 -- November 20th, 2020";
   white-space: pre-wrap;
   border-top: 1px solid #333943;
   font-size: 11px;
@@ -484,6 +484,7 @@ body:before {
   background-color: #7289da !important;
   color: #fff !important;
 }
+.im_bot_intro_message,
 .login_form_messaging,
 .login_smscode_lead,
 .login_form_lead,
@@ -620,6 +621,7 @@ a.im_dialog .im_short_message_text,
 input::placeholder {
   color: #6e6e6e !important;
 }
+.im_bot_intro_message_header,
 .login_head_submit_btn,
 .login_form_head,
 .badge,
@@ -1072,7 +1074,7 @@ a.im_dialog:hover,
   position: relative;
   margin-right: 50px;
   display: grid;
-  grid-template-columns: 1fr 190px;
+  grid-template-columns: 1fr 0fr;
   grid-column-gap: 10px;
 }
 .im_edit_panel_wrap {
@@ -1100,6 +1102,7 @@ a.im_dialog:hover,
   display: table;
   grid-row: 2;
   grid-column: 2;
+  min-width: max-content;
 }
 .im_send_reply_wrap {
   grid-row: 1;
@@ -1236,6 +1239,7 @@ a.im_panel_own_photo {
 }
 .im_submit_send {
   margin-top: 5px;
+  margin-left: 5px;
 }
 .im_send_field_wrap,
 .im_inline_placeholder_wrap {
@@ -1317,12 +1321,13 @@ a.im_panel_own_photo {
 .im_service_message_wrap {
   text-align: center;
 }
+.im_bot_intro_message_wrap,
 .im_service_message_wrap .im_service_message {
   background-color: #252a33 !important;
   padding: 6px;
   border: 1px solid #333943;
   border-bottom: 3px solid #333943;
-  border-radius: 5px;
+  border-radius: 5px !important;
   -webkit-box-shadow: 0px 2px 5px rgba(0,0,0,0.251);
   -moz-box-shadow: 0px 2px 5px rgba(0,0,0,0.251);
   -webkit-shadow: 0px 2px 5px rgba(0,0,0,0.251);
@@ -1332,6 +1337,16 @@ a.im_panel_own_photo {
   float: center;
   width: auto;
   margin: 5px auto;
+}
+.im_bot_intro_message {
+  background-color: rgba(46,52,63,0.5);
+  border-radius: 3px;
+  padding: 8px 16px;
+  margin: 5;
+  border: 0;
+  position: relative;
+  overflow: hidden;
+  border-radius: 3px !important;
 }
 .im_message_date {
   opacity: 0.5;
@@ -2740,7 +2755,7 @@ a.tg_radio_on:hover i.icon-radio {
 .media_modal_bottom_panel_wrap {
   background-color: #252a33;
 }
-.reply_markup_wrap {
+.im_history_message_wrap .im_message_outer_wrap .im_message_wrap .im_content_message_wrap .im_message_body div[my-message-body="historyMessage"] .im_message_keyboard .reply_markup_wrap {
   background-color: rgba(0,0,0,0.1);
   padding: 5px;
   margin: 0;
@@ -2752,17 +2767,44 @@ a.tg_radio_on:hover i.icon-radio {
   justify-content: center;
   align-items: center;
 }
-.reply_markup_wrap .im_message_outer_wrap {
+.im_history_message_wrap .im_message_outer_wrap .im_message_wrap .im_content_message_wrap .im_message_body div[my-message-body="historyMessage"] .im_message_keyboard .reply_markup_wrap .im_message_outer_wrap {
   width: max-content;
 }
-.reply_markup_button_w1 .reply_markup_button {
+.im_history_message_wrap .im_message_outer_wrap .im_message_wrap .im_content_message_wrap .im_message_body div[my-message-body="historyMessage"] .im_message_keyboard .reply_markup_wrap .reply_markup .reply_markup_row .reply_markup_button_w1 .reply_markup_button {
   width: 100% !important;
 }
-.reply_markup_button_w2 .reply_markup_button {
+.im_history_message_wrap .im_message_outer_wrap .im_message_wrap .im_content_message_wrap .im_message_body div[my-message-body="historyMessage"] .im_message_keyboard .reply_markup_wrap .reply_markup .reply_markup_row .reply_markup_button_w2 .reply_markup_button {
   width: 120px !important;
 }
-.reply_markup_button_w3 .reply_markup_button {
+.im_history_message_wrap .im_message_outer_wrap .im_message_wrap .im_content_message_wrap .im_message_body div[my-message-body="historyMessage"] .im_message_keyboard .reply_markup_wrap .reply_markup .reply_markup_row .reply_markup_button_w3 .reply_markup_button {
   width: 100px !important;
+}
+.im_bottom_panel_wrap .im_send_panel_wrap .im_send_form_wrap1 .im_send_form_wrap .im_record_supported .im_send_form .im_send_keyboard_wrap {
+  background-color: rgba(46,52,63,0.5);
+  border-radius: 3px;
+  padding: 8px 16px;
+  margin: 5px;
+  border: 0;
+  position: relative;
+  overflow: hidden;
+  padding: 8px 9.5px !important;
+  margin-top: 8px;
+  display: table;
+  grid-row: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.im_bottom_panel_wrap .im_send_panel_wrap .im_send_form_wrap1 .im_send_form_wrap .im_record_supported .im_send_form .im_send_keyboard_wrap div {
+  margin: 0 !important;
+}
+.im_bottom_panel_wrap .im_send_panel_wrap .im_send_form_wrap1 .im_send_form_wrap .im_record_supported .im_send_form .im_send_keyboard_wrap .reply_markup_wrap .scroller_scrollable_container .scroller_scrollable_wrap {
+  overflow: visible;
+}
+.im_bottom_panel_wrap .im_send_panel_wrap .im_send_form_wrap1 .im_send_form_wrap .im_record_supported .im_send_form .im_send_keyboard_wrap .reply_markup_wrap .scroller_scrollable_container .scroller_scrollable_wrap .scroller_scrollable {
+  right: 0 !important;
+}
+.im_bottom_panel_wrap .im_send_panel_wrap .im_send_form_wrap1 .im_send_form_wrap .im_record_supported .im_send_form .im_send_keyboard_wrap .reply_markup_wrap .scroller_scrollable_container .scroller_scrollable_wrap .scroller_scrollable .reply_markup .reply_markup_row .reply_markup_button_wrap .reply_markup_button {
+  width: 100% !important;
 }
 .page_wrap {
   transform: scale(1);
