@@ -1,3 +1,4 @@
+
 :root, .__fb-light-mode {
     --card-background: #1e1e1e;
     --comment-background: #292929;
@@ -8,11 +9,11 @@
     --hover-overlay: rgba(255, 255, 255, 0.05);
     --media-inner-border: rgba(255, 255, 255, 0.1);
     --messenger-card-background: #1e1e1e;
+    --messenger-reply-background: #2a2a2a;
     --overlay-alpha-80: rgba(41, 41, 41, 0.8);
     --popover-background: #1e1e1e;
     --primary-icon: #cecece;
     --primary-text: #cecece;
-    --messenger-reply-background: rgb(119, 119, 119);
     --scroll-thumb: #5d5d5d;
     --secondary-button-background: #353535;
     --secondary-icon: #999;
@@ -27,31 +28,8 @@
     --web-wash: #1e1e1e;
 }
 
-::-webkit-scrollbar {
-    width: 0 !important;
-}
-
 body {
     color: #cecece;
-}
-
-/* messages scrollbar */
-div.buofh1pr.j83agx80.eg9m0zos.ni8dbmo4.cbu4d94t.gok29vw1::-webkit-scrollbar {
-    width: 0.55em !important;
-}
-div.buofh1pr.j83agx80.eg9m0zos.ni8dbmo4.cbu4d94t.gok29vw1::-webkit-scrollbar-thumb {
-    background: var(--scroll-thumb) !important;
-    border-radius: 20px !important;
-}
-
-/* message replys */
-div.m9osqain {
-    color: var(--primary-text) !important;
-}
-
-/* emojis */
-div._4f4q {
-    background: none !important;
 }
 
 /* Delivered icon on left*/
@@ -94,4 +72,29 @@ path[d="M18 30c-6.627 0-12-5.372-12-12 0-6.627 5.373-12 12-12 6.628 0 12 5.373 1
 /* Feedback icons */
 .sp_BQbKIpOzOAx_1_5x, .sp_a51jIvPl6dA_1_5x {
     filter: invert(.8);
+}
+
+/* Reacts */
+.tlilfck6 {
+    box-shadow: 0 2px 4px var(--shadow-2);
+}
+
+/*[[ccb]]*/
+
+::-webkit-scrollbar {
+    width: 0 !important;
+}
+
+/* messages scrollbar */
+div.buofh1pr.j83agx80.eg9m0zos.ni8dbmo4.cbu4d94t.gok29vw1::-webkit-scrollbar {
+    width: 0.55em !important;
+}
+div.buofh1pr.j83agx80.eg9m0zos.ni8dbmo4.cbu4d94t.gok29vw1::-webkit-scrollbar-thumb {
+    background: var(--scroll-thumb) !important;
+    border-radius: 20px !important;
+}
+
+/* emojis */
+div._4f4q {
+    background: none !important;
 }
