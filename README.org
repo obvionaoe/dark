@@ -22,7 +22,7 @@ This repository is a collection of dark themes for Rambox, Franz or Ferdi that I
 #+HTML: <details>
 
 #+HTML: <summary>Click to expand!</summary>
-  
+
 First, find the service you wish to apply the theme to
 
 #+HTML: <img src="https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/tutorial/find.png"/>
@@ -67,7 +67,7 @@ $ sh install.sh [app] [service]
 Replace ~[app]~ by the application you're using (either Franz or Ferdi) and ~[service]~ by the name of the service you want to theme or by ~all~ to install all of the dark themes.
 
 #+HTML: </details>
-  
+
 #+HTML: <details>
 
 #+HTML: <summary>Windows</summary>
@@ -89,11 +89,11 @@ To apply the themes, just turn on dark mode inside the service settings.
 #+HTML: <details>
 
 #+HTML: <summary>If you don't have Git</summary>
-  
+
 Just copy the ~[service]/darkmode.css~ file, with ~[service]~ being the name of the service you want to update, into the recipe folder of that service.
 
 To apply the themes, just turn on dark mode inside the service settings.
-  
+
 #+HTML: </details>
 
 ** Updating the themes
@@ -106,14 +106,14 @@ Same steps you use for applying them in the first place.
 
 #+HTML: <details>
 #+HTML: <summary>If you have Git</summary>
-  
+
 Just run ~git pull origin master~ in the repo folder you cloned and reload the services inside Ferdi, Franz or Rambox.
 
 #+HTML: </details>
 
 #+HTML: <details>
 #+HTML: <summary>If you don't have Git</summary>
-  
+
 Just copy the ~[service]/darkmode.css~ file, with ~[service]~ being the name of the service you want to update, into the recipe folder of that service!
 
 #+HTML: </details>
@@ -128,7 +128,7 @@ Just copy the ~[service]/darkmode.css~ file, with ~[service]~ being the name of 
 
 #+HTML: <details>
 #+HTML: <summary>Screenshot</summary>
-  
+
 #+HTML: <img src="https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/screenshots/instagram.png"/>
 
 #+HTML: </details>
@@ -137,12 +137,12 @@ Just copy the ~[service]/darkmode.css~ file, with ~[service]~ being the name of 
 #+HTML: <div>
 #+HTML: <img src="https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/icons/messenger.png"/>
 
-*Messenger* - forked from *[[https://github.com/auscompgeek/fb-messenger-dark][auscompgeek/fb-messenger-dark]]*\\
-(Customized, bugfixed and improved)
+*Messenger* - forked from *[[https://github.com/cicerakes/DarkNight-FBMessenger][cicerakes/DarkNight-FBMessenger]]*\\
+(Bugfixed and improved)
 
 #+HTML: <details>
 #+HTML: <summary>Screenshot</summary>
-  
+
 #+HTML: <img src="https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/screenshots/messenger.png"/>
 
 #+HTML: </details>
@@ -156,7 +156,7 @@ Just copy the ~[service]/darkmode.css~ file, with ~[service]~ being the name of 
 
 #+HTML: <details>
 #+HTML: <summary>Screenshot</summary>
-  
+
 #+HTML: <img src="https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/screenshots/telegram.png"/>
 
 #+HTML: </details>
@@ -170,7 +170,7 @@ Just copy the ~[service]/darkmode.css~ file, with ~[service]~ being the name of 
 
 #+HTML: <details>
 #+HTML: <summary>Screenshot</summary>
-  
+
 #+HTML: <img src="https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/screenshots/wa.png"/>
 
 #+HTML: </details>
