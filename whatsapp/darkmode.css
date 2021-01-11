@@ -1,6 +1,6 @@
   :root:not(#z),
   .dark:not(#z) {
-    --version: '🌚 Dark-WhatsApp Lite 3.4.0 — November 21st, 2020';
+    --version: '🌚 Dark-WhatsApp Lite 3.5.0 — December 10th, 2020';
     --changes: '\A https://github.com/vednoc/dark-whatsapp\A\A\AP.S. CSS can not add links, only fake/pseudo text.';
     --ui-font: 'font_name', Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
     --r-menus: 4px;
@@ -824,7 +824,7 @@
     border-bottom: 1px solid var(--bg-5) !important;
     background-color: var(--bg-2) !important;
   }
-  .overlay ._3Pwfx {
+  .overlay ._3Pwfx._2jw57 {
     background-color: transparent !important;
   }
   .overlay [data-animate-modal-popup] {
