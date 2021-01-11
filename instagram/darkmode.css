@@ -1,5 +1,5 @@
   :root:not(#z) {
-    --note: 'Dark-Instagram Lite v2.8.0';
+    --note: '🌚 Dark-Instagram Lite v2.9.0';
     --bshadow: 0 2px 4px var(--shadow);
     --t: transparent !important;
     --avatar: a_radius;
@@ -174,7 +174,7 @@
   }
   body > [role = 'presentation'],
   body > [role = 'dialog'] {
-    background: rgba(var(--d87), 0.8) !important;
+    background: rgba(var(--b3f), 0.8) !important;
   }
   .not-logged-in .N9d2H {
     display: none !important;
@@ -238,7 +238,8 @@
     box-shadow: 0 3px 14px var(--shadow);
   }
   body .Sux9m {
-    background-color: rgba(238,238,238,0.133) !important;
+    border-color: #aaa !important;
+    background-color: rgba(238,238,238,0.067) !important;
     --eca: var(--light-rgb);
   }
   body .Sux9m ::placeholder {
@@ -246,6 +247,9 @@
   }
   body .Sux9m ::-webkit-input-placeholder {
     color: #eee !important;
+  }
+  body .Sux9m + div [class*='glyphsSpriteDirect_'] {
+    filter: invert(0.3) !important;
   }
   body .tCibT {
     border: 1px solid var(--darker) !important;
@@ -259,7 +263,8 @@
   .R8iOs > * {
     color: inherit;
   }
-  [role='button'] + span[class=''] > div[class] {
+  [role='button'] + span[class=''] > div[class],
+  .G_hoz {
     background-color: var(--darker) !important;
   }
   body header + div + div.GZkEI li[style] > div > div > [role],
@@ -294,14 +299,10 @@
   body article > header ~ div .WXPwG .Yi5aA {
     background-color: var(--white) !important;
   }
-  body img + div[style = 'height: 100%;'] {
+  body img + div[style = 'height: 100%;'],
+  body video + div[style = 'height: 100%;'] {
     position: unset !important;
     display: none !important;
-  }
-  .GHEPc .B20bj,
-  .GHEPc .z6Odz,
-  .GHEPc .i0EQd {
-    display: none;
   }
   body ._9AhH0 {
     position: unset !important;
@@ -309,9 +310,6 @@
   body .PyenC,
   body .fXIG0 {
     bottom: 40px !important;
-  }
-  body ._8jZFn {
-    position: unset !important;
   }
   body .GBPOY {
     border-radius: 3px;
@@ -357,31 +355,17 @@
   }
   body footer {
     width: 100% !important;
-    margin: 0 auto;
-    margin-top: 2rem !important;
+    margin: 0 auto !important;
     max-width: 935px !important;
     border-top: 1px solid var(--darker) !important;
   }
-  body footer > div {
-    padding: 2rem 0 3rem !important;
+  .XfvCs {
+    margin-bottom: 30px !important;
   }
-  body footer nav {
-    width: 100% !important;
-    display: flex;
+  body footer > div::after {
+    content: var(--note);
     text-align: center;
-  }
-  body footer nav + span,
-  .copyright {
-    margin: 3rem auto 0;
-    display: block;
-    font-size: 0 !important;
-    color: var(--light) !important;
-  }
-  body footer nav + span::before,
-  .copyright::before {
-    content: '🌚 ' var(--note) !important;
-    font-size: 14px !important;
-    text-transform: initial !important;
+    margin-top: 2rem;
   }
   @keyframes Loader {
     0% {
