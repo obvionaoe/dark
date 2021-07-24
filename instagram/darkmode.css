@@ -1,5 +1,5 @@
   :root:not(#z) {
-    --note: '🌚 Dark-Instagram Lite v2.9.0';
+    --note: 'Switching @updateURL to https://userstyles.world platform!\A\A🌚 Dark-Instagram v2.9.1';
     --bshadow: 0 2px 4px var(--shadow);
     --t: transparent !important;
     --avatar: a_radius;
@@ -135,6 +135,7 @@
   [class *= 'SpriteApp'],
   [class *= 'Spritez'],
   [class *= 'SpriteKeyhole'],
+  [class *= 'SpriteLock_'],
   [class *= 'SpriteFriend_'],
   [class *= 'SpriteAdd_friend_'],
   [class *= 'SpriteDropdownArrowGrey'],
@@ -335,7 +336,7 @@
     background-color: var(--t) !important;
   }
   body .QOqBd {
-    background-color: var(--darker) !important;
+    background-color: rgba(136,136,136,0.067) !important;
   }
   .X3a-9 {
     background-color: var(--dark) !important;
@@ -345,6 +346,9 @@
   }
   body .CMoMH._6FEQj {
     background-color: var(--darker) !important;
+  }
+  body [role='listbox'] [aria-hidden='false'] > [style*='left: calc('] + div {
+    --eca: var(--white-rgb) !important;
   }
   body .XjicZ {
     border-top: 1px solid var(--darker);
