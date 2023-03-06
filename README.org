@@ -1,6 +1,9 @@
 #+STARTUP: nofold
 #+HTML: <div align="center">
 
+* Archival Notice
+As I stopped using Ferdi, and before it Rambox, I've decided to archive this repository as I will not be developing it further. I hope it'll still be useful to anybody looking to theme their messaging services.
+
 #+HTML: <img src="https://raw.githubusercontent.com/obvionaoe/dark-resources/master/images/icon.png" width="198"/>
 
 * dark
